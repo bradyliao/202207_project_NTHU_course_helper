@@ -25,17 +25,33 @@ def grab_GPA(driver, semester):
     driver.find_element(by=By.NAME, value="Submit").click()
 
     # 按掉alert
-    WebDriverWait(driver, 10).until(EC.alert_is_present())
+    WebDriverWait(driver, 1).until(EC.alert_is_present())
     driver.switch_to.alert.accept()
 
     # 等所有資料load
-    sleep(10)
+    sleep(5)
     
     # 表格轉dataframe
-    df=to_df()
-    df.columns=['科號 Course No.','科目名稱 Course Name','授課教師 Teacher','修課人數 Enrollment',
-                '平均值 average GPA','標準差 standard deviation']
+    df=to_df(driver)
+    # df.columns=['科號 Course No.','科目名稱 Course Name','授課教師 Teacher','修課人數 Enrollment', '平均值 average GPA','標準差 standard deviation']
+    
     #上一頁
     driver.find_element(by=By.NAME, value="Submit").click()
     
     return df
+
+def to_reference(string):
+    out = ''
+    for c in string:
+        if c.isalpha():
+            out += str(ord(c))
+    
+    return out
+
+
+
+def tablepress_link_code(display_str, url, target_str):
+    link = url + '?table_filter=' + target_str
+    code = '<a href=\"' + link + '\" rel=\"noopener\" target=\"_blank\">' + display_str + '</a>'
+    
+    return code

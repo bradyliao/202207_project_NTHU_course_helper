@@ -359,7 +359,7 @@
 11110CHE 421002,單元操作實驗,Unit Operation Laboratory,2,30,0, ,,中,演習T6789，教室R216,,"CHE化工 212	R6R7R8R9
 ","潘詠庭	PAN, YUNG-TIN
 ",,化工系大學部優先，第3次選課起開放全校修習,化學工程(第一專長),,,化工系108B  必修	
-11110CHE 455200,生物技術概論,Introduction to Biotechnology,3,,0, ,,英, ,,"CHE化工 209	M2R1R2
+11110CHE 455200,生物技術概論,Introduction to Biotechnology,3,,0, ,,英, ,,"CHE化工 B18	M2R1R2
 ","胡育誠	HU, YU-CHEN
 ",,,,(跨領域)生物產業技術學分學程/(跨領域)生物科技管理學分學程,,化工系109B  必修	
 11110CHE 485000,半導體材料與製造技術,Semiconductor Materials and Manufacturing Technology,3,,0, ,,中, ,,"CHE化工 212	M6M7M8
@@ -1900,7 +1900,7 @@ EECS資電 326	T7T8
 11110EMBA510600,人文思維與社會實踐,humanities and social practices,2,40,10, ,,中, ,,"TSMC台積905	WaWb
 ","林聖芬	LIN, SHENG-FEN
 ",,"限EMBA專班,EMBA雙聯,健康經管專班,MBA專班,財金專班,公共政策與管理碩士專班",,,,EMBA專班111P  選修	EMBA雙聯111P  選修	健康經管專班111P  選修	MBA專班111P  選修	財金專班111P  選修	公共政策與管理碩士專班111P  選修	
-11110EMBA510700,公司治理與法律,Corporate Governance and the Law,2,35,0, ,,中,"週日上課,日期另行公告",,"TSMC台積901	M8M9
+11110EMBA510700,公司治理與法律,Corporate Governance and the Law,2,35,0, ,,中,"週日上課,日期另行公告",,"TSMC台積901	MbT9
 ","蔡昌憲	TSAI, CHANG-HSIEN
 ",,限EMBA專班,,,,EMBA專班111P  選修	
 11110EMBA510800,金門戰地人文與管理,Battlefield Culture and Management in Kinmen,2,,0, ,,中, ,,"TSMC台積901	TaTb
@@ -5940,7 +5940,7 @@ Nanda南大2106	R3
 11110LANG101103,中級英文一,Intermediate English I,2,32,32, ,,英, ,,"Nanda南大9104	M3M4
 ","楊幸瑜	HSING-YU YANG
 ",,"限大學部,中級生",,,《不接受加簽 No extra selection》,
-11110LANG101104,中級英文一,Intermediate English I,2,32,32, ,,英, ,,"Nanda南大9106	F3F4
+11110LANG101104,中級英文一,Intermediate English I,2,32,32, ,,英, ,,"Nanda南大9512	F3F4
 ","金祖詠	KING, TZUU-YEONG
 ",,"限大學部,中級生",,,《不接受加簽 No extra selection》,
 11110LANG101105,中級英文一,Intermediate English I,2,32,32, ,,英, ,,"Nanda南大2104	F3F4
@@ -6881,9 +6881,9 @@ GEN III綜三 201	T1T2F1F2
 ","魏福村	WEI, FU-TSUN
 ",,數學系大學部1年級優先，第3次選課起開放全校修習,數學(第二專長)	數學(第一專長),,,數學系111BA 選修	數學系111BB 選修	
 11110MATH171001,程式設計一,Introduction to Programming I,3,47,35, ,,中,限應數組,,"GEN III綜三315	R7R8R9
-","聘任中	
+","卓綵倫	CHO, TSAI-LUN
 ",,限數學系大學部1年級清班,,(跨領域)人工智慧與應用基礎學分學程/(跨領域)音樂科技與健康學分學程,,數學系111BA 必修	
-11110MATH171002,程式設計一,Introduction to Programming I,3,47,35, ,,中,限數學組,,"GEN III綜三315	W7W8W9
+11110MATH171002,程式設計一,Introduction to Programming I,3,47,35, ,,中,"限數學組,教師:徐聖訓",,"GEN III綜三315	W7W8W9
 ","未定	
 ",,限數學系大學部1年級華班,,(跨領域)人工智慧與應用基礎學分學程/(跨領域)音樂科技與健康學分學程,,數學系111BB 必修	
 11110MATH201001,高等微積分一,Advanced Calculus I,4,50,0, ,,中,演習課時間為M19:00-21:00，地點為綜三107、201,,"GEN III綜三 119	T1T2F1F2
@@ -6995,7 +6995,7 @@ GEN III綜三315	T6
 11110MBA 503200,給經理人的管理資訊系統,Management Information Systems for managers,2,40,20, ,,中, ,,"TSMC台積905	S8S9
 ","許裴舫	HSU, PEI-FANG
 ",,"限EMBA專班,MBA專班",,,《不接受加簽 No extra selection》,EMBA專班111P  選修	MBA專班111P  選修	
-11110MBA 503700,研究方法,Research Methods,2,40,0, ,,中,週日課程,,"TSMC台積901	M8M9
+11110MBA 503700,研究方法,Research Methods,2,40,0, ,,中,週日課程,,"TSMC台積901	T9Ta
 ","洪世章	HUNG, SHIH-CHANG
 余士迪	YU, SHIH-TI
 ",,"限EMBA專班,MBA專班",,,《不接受加簽 No extra selection》,EMBA專班111P  選修	MBA專班111P  選修	

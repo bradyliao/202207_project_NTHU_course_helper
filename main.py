@@ -1,7 +1,15 @@
 import pandas as pd
-from module_crawler_course_data import crawler_course_data
-from module_crawler_course_curriculum import crawler_course_curriculum
-from module_data_process_merge import data_process_merge
+
+from module_course_curriculum_downloader import course_curriculum_downloader
+from module_course_curriculum_processer import course_curriculum_processer
+
+from module_course_data_downloader import course_data_downloader
+from module_course_data_processer import course_data_processer
+
+from module_course_merge import course_merge
+
+from module_GPA_downloader import GPA_downloader
+from module_GPA_processer import GPA_processer
 
 # check tesseract path in module_captcha
 
@@ -14,61 +22,31 @@ course_data_url = 'https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/OPENDATA/open_co
 selenium_driver_path = './chromedriver_win.exe'
 data_folder_path = './data/'
 
+NTHU_homepage_url = 'https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/'
+student_ID = '109062272'
+password = 'swedenLettuce342'
+
+GPArecord_url = 'http://3.39.148.46/gpa-record/'
 
 
-course_data_df = crawler_course_data(data_folder_path, global_semester, course_data_url)
-course_data_df.to_csv(data_folder_path + global_semester + '_course_data.csv', index = False)
+# # course_curriculum_downloader(data_folder_path, global_semester, curriculum_semester_option, curriculum_url, selenium_driver_path)
+# course_curriculum_processer(data_folder_path, global_semester)
 
-course_curriculum_df = crawler_course_curriculum(curriculum_semester_option, curriculum_url, selenium_driver_path)
-course_curriculum_df.to_csv(data_folder_path + global_semester + '_course_corriculum.csv', index = False)
+# # course_data_downloader(data_folder_path, global_semester, course_data_url)
+# course_data_processer(data_folder_path, global_semester)
 
-course_merged = data_process_merge(False, course_data_df, course_curriculum_df)
-course_merged.to_csv(data_folder_path + global_semester + '_course_merged.csv', index = False)
-
-
+selection_system_on = False
+course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url)
 
 
+grap_GPA_semester_name = '109上(2020-Fall)'
+grap_GPA_semester_code = '109_10'
+# GPA_downloader(selenium_driver_path, NTHU_homepage_url, student_ID, password, data_folder_path, grap_GPA_semester_name, grap_GPA_semester_code )
+# GPA_processer(data_folder_path, grap_GPA_semester_code)
 
 
-
-
-
-
-
-
-
-
-
-
-
+# GPA_record_name = 'GPA_record_to_109_10.csv'
 
 
 
 
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import Select
-# from selenium.webdriver.chrome.options import Options
-# from selenium.webdriver.chrome.service import Service
-
-
-
-# # Selenium
-# options = Options()
-# options.add_argument("--disable-notifications")
-# options.add_experimental_option('excludeSwitches', ['enable-logging']) # shut up error code triggered by chrome: "Failed to read descriptor from node connection: A device attached to the system is not functioning." 
-# s = Service(selenium_driver_path)
-
-
-
-# # open chrome
-# driver = webdriver.Chrome(service= s, options= options)
-# # to url
-# driver.get(curriculum_url)
-
-# # screenshot -> it will be the same from the website
-# image_location = driver.find_element(By.XPATH, "/html/body/div/form/table[2]/tbody/tr/td/img")
-# with open('image_screenshot.png', 'wb') as file:
-#     file.write(image_location.screenshot_as_png)
-    
-    

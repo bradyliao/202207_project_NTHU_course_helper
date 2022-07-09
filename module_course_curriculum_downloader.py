@@ -13,9 +13,9 @@ from selenium.webdriver.chrome.service import Service
 
 
 from module_utility import to_df
-from module_captcha_from_screenshot_file import captcha_from_screenshot_file
+from module_captcha import captcha_file
 
-def crawler_course_curriculum(curriculum_semester_option, curriculum_url, selenium_driver_path):
+def course_curriculum_downloader(data_folder_path, global_semester, curriculum_semester_option, curriculum_url, selenium_driver_path):
     
     # Selenium
     options = Options()
@@ -66,7 +66,7 @@ def crawler_course_curriculum(curriculum_semester_option, curriculum_url, seleni
         with open('image_screenshot.png', 'wb') as file:
             file.write(image_location.screenshot_as_png)
         
-        captcha_result = captcha_from_screenshot_file('image_screenshot.png')
+        captcha_result = captcha_file('image_screenshot.png')
         
         # captcha return non 3-digig result -> redo this iteration
         if len(captcha_result) != 3:
@@ -117,5 +117,4 @@ def crawler_course_curriculum(curriculum_semester_option, curriculum_url, seleni
     
     
     
-    
-    return course_curriculum_df
+    course_curriculum_df.to_csv(data_folder_path + global_semester + '_course_corriculum_downloaded.csv', index = False)
