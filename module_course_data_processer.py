@@ -203,7 +203,7 @@ def course_data_processer(data_folder_path, global_semester):
             course_ID = course_ID[:-6] + ' ' + course_ID[-6:]
         course_ID = course_ID[5:]
         
-        course = course_ID[:-2].replace(' ', '')
+        course_num = course_ID[:-2].replace(' ', '')
         
         
         
@@ -273,16 +273,22 @@ def course_data_processer(data_folder_path, global_semester):
                 if i%2 == 1:
                     time = time + room_and_time_split[i]
                 else:
-                    toRemove = -1
-                    for j in range(len(room_and_time_split[i])-1, 0, -1):
-                        if ( ord(room_and_time_split[i][j])>=48 and ord(room_and_time_split[i][j])<=57 ) or ( ord(room_and_time_split[i][j])>=65 and ord(room_and_time_split[i][j])<=90 ) or room_and_time_split[i][j].isdigit():
-                            toRemove = j
+                    if ( not ( ( ord(room_and_time_split[i][-1])>=48 and ord(room_and_time_split[i][-1])<=57 ) or ( ord(room_and_time_split[i][-1])>=65 and ord(room_and_time_split[i][-1])<=90 ) or room_and_time_split[i][-1].isdigit() ) ):
+                        if building == '':
+                            building = building + room_and_time_split[i]
                         else:
-                            break
-                    if building == '':
-                        building = building + room_and_time_split[i][:toRemove]
+                            building = building + ' ' + room_and_time_split[i]
                     else:
-                        building = building + ' ' + room_and_time_split[i][:toRemove]
+                        toRemove = -1
+                        for j in range(len(room_and_time_split[i])-1, 0, -1):
+                            if ( ord(room_and_time_split[i][j])>=48 and ord(room_and_time_split[i][j])<=57 ) or ( ord(room_and_time_split[i][j])>=65 and ord(room_and_time_split[i][j])<=90 ) or room_and_time_split[i][j].isdigit():
+                                toRemove = j
+                            else:
+                                break
+                        if building == '':
+                            building = building + room_and_time_split[i][:toRemove]
+                        else:
+                            building = building + ' ' + room_and_time_split[i][:toRemove]
             
         
         # --------------------------------------------------------------------------------------- (col. 12) instructor        
@@ -336,11 +342,11 @@ def course_data_processer(data_folder_path, global_semester):
             required_or_elective = course_data_df.iloc[row,18].replace('  ', '').replace(' ', '').replace('\t', '/')[:-1]
         
         #                0                    1          2       3           4                5                 6            7      8         9        10        11                  12    13         14         15     16           17          18           19      20                21
-        newData.append([course_ID_full_orig, course_ID, course, department, course_title_zh, course_title_eng, credit_unit, limit, new_only, gen_cat, language, room_and_time_orig, time, building, instructor, memo, prerequisite, limitation, speciality, program, extra_enrollment, required_or_elective])
+        newData.append([course_ID_full_orig, course_ID, course_num, department, course_title_zh, course_title_eng, credit_unit, limit, new_only, gen_cat, language, room_and_time_orig, time, building, instructor, memo, prerequisite, limitation, speciality, program, extra_enrollment, required_or_elective])
         
     # --------------------------------------------------------------------------------------- end of for loop
     
     course_data_processed_df = pd.DataFrame(data=newData)
-    course_data_processed_df.columns = ['course_ID_full_orig', 'course_ID', 'course', 'department', 'course_title_zh', 'course_title_eng', 'credit_unit', 'limit', 'new_only', 'gen_cat', 'language', 'room_and_time_orig', 'time', 'building', 'instructor', 'memo', 'prerequisite', 'limitation', 'speciality', 'program', 'extra_enrollment', 'required_or_elective']
+    course_data_processed_df.columns = ['course_ID_full_orig', 'course_ID', 'course_num', 'department', 'course_title_zh', 'course_title_eng', 'credit_unit', 'limit', 'new_only', 'gen_cat', 'language', 'room_and_time_orig', 'time', 'building', 'instructor', 'memo', 'prerequisite', 'limitation', 'speciality', 'program', 'extra_enrollment', 'required_or_elective']
     
     course_data_processed_df.to_csv(data_folder_path + global_semester + '_course_data_processed.csv', index=False)

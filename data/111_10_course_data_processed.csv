@@ -1,4 +1,4 @@
-course_ID_full_orig,course_ID,course,department,course_title_zh,course_title_eng,credit_unit,limit,new_only,gen_cat,language,room_and_time_orig,time,building,instructor,memo,prerequisite,limitation,speciality,program,extra_enrollment,required_or_elective
+course_ID_full_orig,course_ID,course_num,department,course_title_zh,course_title_eng,credit_unit,limit,new_only,gen_cat,language,room_and_time_orig,time,building,instructor,memo,prerequisite,limitation,speciality,program,extra_enrollment,required_or_elective
 11110AES 510000,AES 510000,AES5100,AES  分環所,專題演講,Colloquium,0,55,0,--,中文 ZH,"BMES醫環301	W7W8
 ",W7W8,BMES醫環,"吳劍侯	WU, CHIEN-HOU",--,--,"限分環所,環境博士學程",--,--,O 接受 Allowed,分環所111M必修
 11110AES 510100,AES 510100,AES5101,AES  分環所,碩士班專題研究,MS Graduate Research,1,--,0,--,中文 ZH,--,--,--,指導教授	,指導教授限分環所教師,--,限分環所碩士班2年級,--,--,O 接受 Allowed,分環所111M必修
@@ -274,9 +274,9 @@ course_ID_full_orig,course_ID,course,department,course_title_zh,course_title_eng
 11110CHEM100000,CHEM 100000,CHEM1000,CHEM 化學系,普通化學乙,General Chemistry (B),3,160,120,--,中文 ZH,"ENG I工一 107	M3M4W1W2
 ",M3M4W1W2,ENG I工一 ,"王育恒	WANG, YU-HENG","每週150分鐘,其餘為彈性補課時間。普化一及普化乙不同,不能互抵",--,"限動機系大學部,原科院學士班大學部",工程與系統科學(一),--,O 接受 Allowed,原科院學士班111B必修/動機系111BA必修/動機系111BB必修
 11110CHEM101001,CHEM 101001,CHEM1010,CHEM 化學系,普通化學一,General Chemistry (I),3,160,160,--,中文 ZH,"MXIC旺宏懷樸	M3M4W1W2
-",M3M4W1W2,MXIC旺宏懷,"廖文峯	LIAW, WEN-FENG","普化一及普化乙不同,不能互抵, (含實中科學班)；每週150分鐘,其餘為彈性補課時間,",--,"工學院學士班大學部1年級,化學系大學部1年級,理學院學士班大學部1年級優先，第3次選課起開放全校修習",化學工程(一)/化學(一)/醫學科學(一)/生命科學(一),--,O 接受 Allowed,化學系111B必修/工學院學士班111B必修/理學院學士班111B必修
+",M3M4W1W2,MXIC旺宏懷樸,"廖文峯	LIAW, WEN-FENG","普化一及普化乙不同,不能互抵, (含實中科學班)；每週150分鐘,其餘為彈性補課時間,",--,"工學院學士班大學部1年級,化學系大學部1年級,理學院學士班大學部1年級優先，第3次選課起開放全校修習",化學工程(一)/化學(一)/醫學科學(一)/生命科學(一),--,O 接受 Allowed,化學系111B必修/工學院學士班111B必修/理學院學士班111B必修
 11110CHEM101002,CHEM 101002,CHEM1010,CHEM 化學系,普通化學一,General Chemistry (I),3,165,165,--,中文 ZH,"MXIC旺宏懷樸	W3W4F3F4
-",W3W4F3F4,MXIC旺宏懷,"洪嘉呈	HORNG, JIA-CHERNG","普化一及普化乙為不同課程,不能互抵；每週150分鐘,其餘為彈性補課時間,",--,"生科院,醫環系大學部1年級優先，第3次選課起開放全校修習",化學工程(一)/化學(一)/醫學科學(一)/生命科學(一),--,O 接受 Allowed,醫環系111B必修/醫科系111B必修/生科系111B必修/生科院學士班111B必修
+",W3W4F3F4,MXIC旺宏懷樸,"洪嘉呈	HORNG, JIA-CHERNG","普化一及普化乙為不同課程,不能互抵；每週150分鐘,其餘為彈性補課時間,",--,"生科院,醫環系大學部1年級優先，第3次選課起開放全校修習",化學工程(一)/化學(一)/醫學科學(一)/生命科學(一),--,O 接受 Allowed,醫環系111B必修/醫科系111B必修/生科系111B必修/生科院學士班111B必修
 11110CHEM101003,CHEM 101003,CHEM1010,CHEM 化學系,普通化學一,General Chemistry (I),3,140,140,--,中文 ZH,"CHE化工 B18	M3M4W1W2
 ",M3M4W1W2,CHE化工 ,"黃國柱	HWANG, KUO-CHU","每週150分鐘,其餘為彈性補課時間,普化一及普化乙不同,不能互抵",--,"化工系大學部1年級,物理系大學部1年級優先，第3次選課起開放全校修習",化學工程(一)/化學(一)/醫學科學(一)/生命科學(一)/物理(一),--,O 接受 Allowed,化工系111B必修/物理系111BA必修/物理系111BB必修/物理系111BC必修
 11110CHEM101004,CHEM 101004,CHEM1010,CHEM 化學系,普通化學一,General Chemistry (I),3,50,0,--,英文 EN,"CHEM化   326	M3M4W1W2
@@ -307,7 +307,7 @@ course_ID_full_orig,course_ID,course,department,course_title_zh,course_title_eng
 ",T1T2F1F2,CHEM II化二 ,"林俊成	LIN, CHUN-CHENG",本課程上4小時,"擋修對象 : 全校 
 先修科目 : 曾修普通化學一曾修普通化學二上述條件一定要有，則不擋修。","限化學系,理學院學士班",環境科技學程(二)/化學工程(二)/化學工程(一)/化學(二)/化學(一)/醫學科學(一)/生命科學(二)/生命科學(一),--,O 接受 Allowed,化學系110B必修/理學院學士班110B必修
 11110CHEM221002,CHEM 221002,CHEM2210,CHEM 化學系,有機化學一,Organic Chemistry (I),3,160,0,--,中文 ZH,"LS II生二講堂	W3W4F3F4
-",W3W4F3F4,LS II生二講,"汪炳鈞	UANG, BIING-JIUN",本課程上4小時,"擋修對象 : 全校 
+",W3W4F3F4,LS II生二講堂,"汪炳鈞	UANG, BIING-JIUN",本課程上4小時,"擋修對象 : 全校 
 先修科目 : 曾修普通化學一曾修普通化學二上述條件一定要有，則不擋修。","生科院,化工系大學部2年級優先，第3次選課起開放全校修習",環境科技學程(二)/化學工程(二)/化學工程(一)/化學(二)/化學(一)/醫學科學(一)/生命科學(二)/生命科學(一),--,O 接受 Allowed,化工系110B必修/醫科系110B必修/生科系110B必修
 11110CHEM223001,CHEM 223001,CHEM2230,CHEM 化學系,有機化學實驗一,Organic Chemistry Laboratory(I),2,33,0,--,中文 ZH,"CHEM化   326	M5
 CHEM化   324	M6M7M8
@@ -532,7 +532,7 @@ CHEM化   324	F6F7F8
 11110CL  310100,CL 310100,CL3101,CL   中文系,中國文學史一,History of Chinese Literature (I),3,60,0,--,中文 ZH,"HSS人社C509	M7M8M9
 ",M7M8M9,HSS人社,"許銘全	HSU, MING-CHUAN","本課程為16週課程,院學士班同學若無法選課洽課務組",--,限大學部2年級以上,中國文學(二)/中國文學(一),--,O 接受 Allowed,中文系109B必修
 11110CL  321000,CL 321000,CL3210,CL   中文系,宋明理學,Neo-Confucian Philosophy,3,--,0,--,中文 ZH,"VC虛擬教室	T3T4Tn
-",T3T4Tn,VC虛擬教,"祝平次	CHU, PING-TZU",本課程為16週課程。學術思想類選修課程。同步遠距教學，課程進行方式詳見課程大綱。,--,--,--,--,O 接受 Allowed,中文系109B選修
+",T3T4Tn,VC虛擬教室,"祝平次	CHU, PING-TZU",本課程為16週課程。學術思想類選修課程。同步遠距教學，課程進行方式詳見課程大綱。,--,--,--,--,O 接受 Allowed,中文系109B選修
 11110CL  330200,CL 330200,CL3302,CL   中文系,學庸,The Great Learning and The Doctrine of the Mean,3,35,0,--,中文 ZH,"HSS人社C403	W7W8W9
 ",W7W8W9,HSS人社,"黃忠天	HUANG, CHUNG-TIEN",專書。學術思想類選修課程。,--,--,中國文學(二)/中國文學(一),--,O 接受 Allowed,中文系109B選修
 11110CL  332600,CL 332600,CL3326,CL   中文系,漢書,History of the Former Han Dynasty,3,35,0,--,中文 ZH,"HSS人社C403	R3R4Rn
@@ -546,7 +546,7 @@ CHEM化   324	F6F7F8
 11110CL  382900,CL 382900,CL3829,CL   中文系,華語教學實務,Chinese Language Teaching Practicum,3,20,0,--,中文 ZH,"HSS人社C403	T3T4Tn
 ",T3T4Tn,HSS人社,"吳貞慧	WU, CHEN-HUEI",本課程為16週課程。華語文教學組選修課程。,--,--,--,--,O 接受 Allowed,中文系109B選修
 11110CL  410100,CL 410100,CL4101,CL   中文系,中國思想史一,History of Chinese Thought (I),3,60,0,--,中文 ZH,"VC虛擬教室	F3F4Fn
-",F3F4Fn,VC虛擬教,"祝平次	CHU, PING-TZU","16週課程,同步遠距教學,課程進行方式詳大綱,院學士班同學若無法選課洽課務組",--,排除大學部1年級2年級,中國文學(二)/中國文學(一),--,O 接受 Allowed,中文系108B必修
+",F3F4Fn,VC虛擬教室,"祝平次	CHU, PING-TZU","16週課程,同步遠距教學,課程進行方式詳大綱,院學士班同學若無法選課洽課務組",--,排除大學部1年級2年級,中國文學(二)/中國文學(一),--,O 接受 Allowed,中文系108B必修
 11110CL  420200,CL 420200,CL4202,CL   中文系,詩經,Shi Jing,3,35,0,--,中文 ZH,"HSS人社C402	W3W4Wn
 ",W3W4Wn,HSS人社,"簡良如	CHIEN, LIANG-JU",本課程為16週課程。專書。古典文學、學術思想類選修課程。,--,--,中國文學(二)/中國文學(一),--,O 接受 Allowed,中文系108B選修
 11110CL  440700,CL 440700,CL4407,CL   中文系,詠物文學與花蟲鳥獸圖,Literature of Chanting Thing and Picture of Flowers and Birds,3,--,0,--,中文 ZH,"HSS人社C402	RnR5R6
@@ -716,7 +716,7 @@ EECS資電 326	WaWb
 11110CS  235102,CS 235102,CS2351,CS   資工系,資料結構,Data Structures,3,75,0,--,英文 EN,"DELTA台達104	T3T4R3
 ",T3T4R3,DELTA台達,"蔡仁松	TSAY, REN-SONG","非資工本系生請修習111下特別為資工輔系.雙主修.專長同學開設之同名課程,R34為上機時間(資電326)",--,"資工系大學部2年級,電資院學士班大學部2年級優先，第3次選課起開放全校修習",資訊工程(二)/資訊工程(一)/數據科學(二)/電機工程(一)/電機資訊(一),(跨領域)生物資訊學分學程/(跨領域)積體電路設計學分學程/(跨領域)數據科學學分學程/(跨領域)人工智慧與應用基礎學分學程/(跨領域)音樂科技與健康學分學程,O 接受 Allowed,資工系110BA必修/資工系110BB必修/資工系110BC必修/電資院學士班110B必修/電資院學士班110BA必修
 11110CS  312000,CS 312000,CS3120,CS   資工系,積體電路設計概論,Introduction of Integrated Circuit Design,3,90,0,--,中文 ZH,"VC虛擬教室	T2T3T4
-",T2T3T4,VC虛擬教,"何宗易	HO,TSUNG-YI",同步遠距。,--,資工系大學部優先，第3次選課起開放全校修習,資訊工程(二)/資訊工程(一),(跨領域)積體電路設計學分學程,O 接受 Allowed,資工系108BA選修/資工系108BB選修/資工系108BC選修/資工系109BA選修/資工系109BB選修/資工系109BC選修/電資院學士班108B選修/電資院學士班108BA選修/電資院學士班109B選修/電資院學士班109BA選修
+",T2T3T4,VC虛擬教室,"何宗易	HO,TSUNG-YI",同步遠距。,--,資工系大學部優先，第3次選課起開放全校修習,資訊工程(二)/資訊工程(一),(跨領域)積體電路設計學分學程,O 接受 Allowed,資工系108BA選修/資工系108BB選修/資工系108BC選修/資工系109BA選修/資工系109BB選修/資工系109BC選修/電資院學士班108B選修/電資院學士班108BA選修/電資院學士班109B選修/電資院學士班109BA選修
 11110CS  330500,CS 330500,CS3305,CS   資工系,密碼與網路安全概論,Cryptography and Network Security,3,90,0,--,中文 ZH,"DELTA台達108	M7M8R6
 ",M7M8R6,DELTA台達,"孫宏民	SUN, HUNG-MIN",--,--,資工系大學部優先，第3次選課起開放全校修習,資訊工程(一),(跨領域)金融科技與區塊鏈學分學程,O 接受 Allowed,資工系108BA選修/資工系108BB選修/資工系108BC選修/資工系109BA選修/資工系109BB選修/資工系109BC選修/電資院學士班108B選修/電資院學士班108BA選修/電資院學士班109B選修/電資院學士班109BA選修
 11110CS  342301,CS 342301,CS3423,CS   資工系,作業系統,Operating Systems,3,75,0,--,中文 ZH,"DELTA台達105	M3M4W2
@@ -883,25 +883,25 @@ EECS資電 132	WaWbWc
 謝進益	HSIEH,CHIN-YI
 范建得	FAN, CHIEN TE",--,--,--,--,(跨領域)音樂科技與健康學分學程/(跨領域)醫學科技學分學程,O 接受 Allowed,醫科系108B選修/科法所111D選修/科法所111MA選修/科法所111MB選修
 11110E   100101,E 100101,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"DELTA台達璟德	W3W4
-",W3W4,DELTA台達璟,"葉安洲	YEH, AN-CHOU
+",W3W4,DELTA台達璟德,"葉安洲	YEH, AN-CHOU
 衛子健	WEI, TZU-CHIEN","前半學期主題由材料葉安洲教授講授, 後半學期主題由化工衛子健教授在化工B18講授",--,"工學院,大學部1年級優先，第3次選課起開放全校修習",工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100102,E 100102,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"CHE化工 B18	W3W4
 ",W3W4,CHE化工 ,"葉安洲	YEH, AN-CHOU
 衛子健	WEI, TZU-CHIEN","半學期主題由化工衛子健教授講授, 後半學期主題由材料葉安洲教授在台達璟德講授",--,"工學院,大學部1年級優先，第3次選課起開放全校修習",工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100103,E 100103,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"DELTA台達璟德	W3W4
-",W3W4,DELTA台達璟,"葉安洲	YEH, AN-CHOU
+",W3W4,DELTA台達璟德,"葉安洲	YEH, AN-CHOU
 王訓忠	WONG, SHWIN-CHUNG","前半學期主題由材料葉安洲教授講授, 後半學期主題由動機王訓忠教授在工一107講授",--,"工學院,大學部1年級優先，第3次選課起開放全校修習",工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100104,E 100104,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"ENG I工一 107	W3W4
 ",W3W4,ENG I工一 ,"葉安洲	YEH, AN-CHOU
 王訓忠	WONG, SHWIN-CHUNG","前半學期主題由動機王訓忠教授講授, 後半學期主題由材料葉安洲教授在台達璟德講授",--,"工學院,大學部1年級優先，第3次選課起開放全校修習",工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100105,E 100105,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"DELTA台達璟德	W3W4
-",W3W4,DELTA台達璟,"洪一峯	HUNG, YI-FENG
+",W3W4,DELTA台達璟德,"洪一峯	HUNG, YI-FENG
 葉安洲	YEH, AN-CHOU","前半學期主題由材料葉安洲教授講授, 後半學期主題由工工洪一?教授在工一106講授",--,--,工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100106,E 100106,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"ENG I工一 106	W3W4
 ",W3W4,ENG I工一 ,"洪一峯	HUNG, YI-FENG
 葉安洲	YEH, AN-CHOU","前半學期主題由工工洪一?教授講授, 後半學期主題由材料葉安洲教授在台達璟德講授",--,--,工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100107,E 100107,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"DELTA台達璟德	W3W4
-",W3W4,DELTA台達璟,"葉安洲	YEH, AN-CHOU
+",W3W4,DELTA台達璟德,"葉安洲	YEH, AN-CHOU
 魯才德	LU, TSAI-TE","前半學期主題由材料葉安洲教授講授, 後半學期主題由醫工魯才德教授在工一108講授",--,"工學院,大學部1年級優先，第3次選課起開放全校修習",工業工程與工程管理(一),--,X 不接受 Not Allowed,--
 11110E   100108,E 100108,E1001,E    工學院,工程導論,Introduction to Engineering,2,25,0,--,中文 ZH,"ENG I工一 108	W3W4
 ",W3W4,ENG I工一 ,"葉安洲	YEH, AN-CHOU
@@ -945,7 +945,7 @@ EECS資電 132	WaWbWc
 11110E   500100,E 500100,E5001,E    工學院,書報討論,Seminar,1,50,0,--,英文 EN,"ENG I工一 106	T5T6
 ",T5T6,ENG I工一 ,未定	,Restricted to students of CHE/PME/MSE/BME(M/D) and IEEM (M)/,--,"工學院,碩士班博士班,外籍生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,--
 11110ECON100101,ECON 100101,ECON1001,ECON 經濟系,經濟學原理一,Principles of Economics (I),3,170,170,核通 GEC 4,中文 ZH,"MXIC旺宏懷樸	M7M8M9
-",M7M8M9,MXIC旺宏懷,"廖肇寧	LIAO, CHAO-NING",【108(含)前入學生視為核心向度四】HSS政治經濟學程必修,--,科管院優先，第3次選課起開放全校修習,經濟(二)/經濟(一)/工業工程與工程管理(一)/政治經濟(一),(跨領域)創新創業學分學程,O 接受 Allowed,經濟系111BA必修/經濟系111BB必修/人社院學士班111BA選修/人社院學士班111BB選修/計財系111B必修/科管院學士班111B必修
+",M7M8M9,MXIC旺宏懷樸,"廖肇寧	LIAO, CHAO-NING",【108(含)前入學生視為核心向度四】HSS政治經濟學程必修,--,科管院優先，第3次選課起開放全校修習,經濟(二)/經濟(一)/工業工程與工程管理(一)/政治經濟(一),(跨領域)創新創業學分學程,O 接受 Allowed,經濟系111BA必修/經濟系111BB必修/人社院學士班111BA選修/人社院學士班111BB選修/計財系111B必修/科管院學士班111B必修
 11110ECON100102,ECON 100102,ECON1001,ECON 經濟系,經濟學原理一,Principles of Economics (I),3,100,100,核通 GEC 4,中文 ZH,"TSMC台積224	R3R4Rn
 ",R3R4Rn,TSMC台積,"余朝恩	YU, CHAO-EN",【108(含)前入學生視為核心向度四】HSS政治經濟學程必修,--,科管院優先，第3次選課起開放全校修習,經濟(二)/經濟(一)/工業工程與工程管理(一)/政治經濟(一),(跨領域)創新創業學分學程,O 接受 Allowed,經濟系111BA必修/經濟系111BB必修/人社院學士班111BA選修/人社院學士班111BB選修/計財系111B必修/科管院學士班111B必修
 11110ECON100103,ECON 100103,ECON1001,ECON 經濟系,經濟學原理一,Principles of Economics (I),3,100,100,核通 GEC 4,英文 EN,"TSMC台積103	R5R6R7
@@ -1288,25 +1288,25 @@ EECS資電 326	T7T8
 李明蒼	LEE, MING-TSANG",--,--,限智慧製造高階在職學位學程專班2年級,--,--,O 接受 Allowed,--
 11110EMIM600000,EMIM 600000,EMIM6000,EMIM 智慧製造高階在職專班,論文,Thesis,2,--,0,--,中文 ZH,--,--,--,指導教授	,--,--,限智慧製造高階在職學位學程專班2年級3年級,--,--,O 接受 Allowed,智慧製造高階在職學位學程111P必修
 11110EMM 600100,EMM 600100,EMM6001,EMM  EMBA亞太馬國境外專班,行銷管理,Marketing Management,2,--,0,--,中文 ZH,"Malaysia馬來西亞	TaTb
-",TaTb,Malaysia馬來西,"丘宏昌	CHIU, HUNG-CHANG",--,--,限EMBA亞太馬國境外專班,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
+",TaTb,Malaysia馬來西亞,"丘宏昌	CHIU, HUNG-CHANG",--,--,限EMBA亞太馬國境外專班,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
 11110EMM 600200,EMM 600200,EMM6002,EMM  EMBA亞太馬國境外專班,策略,Strategy,2,--,0,--,中文 ZH,"Malaysia馬來西亞	MaMb
-",MaMb,Malaysia馬來西,"洪世章	HUNG, SHIH-CHANG",--,--,限EMBA亞太馬國境外專班,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
+",MaMb,Malaysia馬來西亞,"洪世章	HUNG, SHIH-CHANG",--,--,限EMBA亞太馬國境外專班,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
 11110EMM 600300,EMM 600300,EMM6003,EMM  EMBA亞太馬國境外專班,財經個案研究,Finance and Economic Cases Analysis,2,--,0,--,中文 ZH,"Malaysia馬來西亞	SaSb
-",SaSb,Malaysia馬來西,"余士迪	YU, SHIH-TI
+",SaSb,Malaysia馬來西亞,"余士迪	YU, SHIH-TI
 蔡子晧	TSAI, TZU-HAO",--,--,限EMBA亞太馬國境外專班,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
 11110EMM 600400,EMM 600400,EMM6004,EMM  EMBA亞太馬國境外專班,高階主管經濟,Advanced Management Economics,2,--,0,--,中文 ZH,"Malaysia馬來西亞	S8S9
-",S8S9,Malaysia馬來西,"莊慧玲	CHUANG, HWEI-LIN
+",S8S9,Malaysia馬來西亞,"莊慧玲	CHUANG, HWEI-LIN
 祁玉蘭	CHYI, YIH-LUAN",--,--,限EMBA亞太馬國境外專班,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
 11110EMM 609900,EMM 609900,EMM6099,EMM  EMBA亞太馬國境外專班,論文,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,--,--,限EMBA亞太馬國境外專班2年級,--,--,O 接受 Allowed,EMBA亞太馬國境外專班111P必修
 11110EMS 500400,EMS 500400,EMS5004,EMS  EMBA深圳境外專班,戰略管理,Strategy,2,--,0,--,中文 ZH,"Shenzhen深圳研究	SaSb
-",SaSb,Shenzhen深圳研,"洪世章	HUNG, SHIH-CHANG",--,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
+",SaSb,Shenzhen深圳研究,"洪世章	HUNG, SHIH-CHANG",--,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
 11110EMS 500600,EMS 500600,EMS5006,EMS  EMBA深圳境外專班,經濟學,Economics,2,--,0,--,中文 ZH,"Shenzhen深圳研究	MaMb
-",MaMb,Shenzhen深圳研,"林世昌	LIN, SHIH-CHANG
+",MaMb,Shenzhen深圳研究,"林世昌	LIN, SHIH-CHANG
 黃朝熙	HUANG, CHAO-HSI",--,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
 11110EMS 500800,EMS 500800,EMS5008,EMS  EMBA深圳境外專班,組織行為學,Organizational Behavior,2,--,0,--,中文 ZH,"Shenzhen深圳研究	S5S6
-",S5S6,Shenzhen深圳研,深圳境外課程	,深圳許玉林教授授課,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
+",S5S6,Shenzhen深圳研究,深圳境外課程	,深圳許玉林教授授課,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
 11110EMS 501000,EMS 501000,EMS5010,EMS  EMBA深圳境外專班,財務報表分析,Financial Statement Analysis,2,--,0,--,中文 ZH,"Shenzhen深圳研究	S2S3
-",S2S3,Shenzhen深圳研,深圳境外課程	,深圳魯桂華教授授課,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
+",S2S3,Shenzhen深圳研究,深圳境外課程	,深圳魯桂華教授授課,--,限EMBA深圳境外專班,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
 11110EMS 509900,EMS 509900,EMS5099,EMS  EMBA深圳境外專班,論文,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,--,--,限EMBA深圳境外專班專班2年級,--,--,O 接受 Allowed,EMBA深圳境外專班111P必修
 11110ENE 511000,ENE 511000,ENE5110,ENE  電子所,固態物理一,Solid State Physics I,3,50,0,--,英文 EN,"DELTA台達201	T2T3T4
 ",T2T3T4,DELTA台達,"吳玉書	WU, YU-SHU",--,--,--,電機工程(一),--,O 接受 Allowed,電子所111D選修/電子所111M選修
@@ -1901,7 +1901,7 @@ EECS資電 326	T7T8
 11110GE  140400,GE 140400,GE1404,GE   通識中心,遊戲與動漫導論,An Introduction of Game and Anime,2,60,0,社會 Social,中文 ZH,"EDU教   310	T5T6
 ",T5T6,EDU教   ,"梁世佑	LIANG, SHIH-YU",本課程為16週課程,--,--,--,--,O 接受 Allowed,--
 11110GE  140500,GE 140500,GE1405,GE   通識中心,產業創新與生涯探索,Industry Innovation and Career development,2,60,0,社會 Social,中文 ZH,"D-Shi實齋講堂	TaTb
-",TaTb,D-Shi實齋講,"商雅婷	SHANG, YA-TING
+",TaTb,D-Shi實齋講堂,"商雅婷	SHANG, YA-TING
 蔡協亨	TSAI, HSIEH-HENG
 李佳玫	LI, CHIA-MEI",本課程為16週課程,--,--,--,(跨領域)創新創業學分學程,O 接受 Allowed,--
 11110GE  140601,GE 140601,GE1406,GE   通識中心,產品設計與實作,Product design and Practice,3,15,0,人文 Humanities,中文 ZH,"EDU教  108	R7R8R9
@@ -1956,7 +1956,7 @@ EECS資電 326	T7T8
 11110GE  160400,GE 160400,GE1604,GE   通識中心,中醫與現代生活一,Traditional Chinese Medicine in Modern Life (I),2,130,0,社會 Social,中文 ZH,"EDU教   310	W1W2
 ",W1W2,EDU教   ,"李如英	LI, JU-YING",本課程為16週課程,--,--,--,--,O 接受 Allowed,--
 11110GE  162200,GE 162200,GE1622,GE   通識中心,資訊素養與倫理,Information Literacy and Ethics,2,60,0,自然 Natural,中文 ZH,"VC虛擬教室	T3T4
-",T3T4,VC虛擬教,"區國良	OU, KUO-LIANG","本課程為16週課程,同步遠距教學課程",--,--,--,(跨領域)資訊傳媒學分學程,O 接受 Allowed,--
+",T3T4,VC虛擬教室,"區國良	OU, KUO-LIANG","本課程為16週課程,同步遠距教學課程",--,--,--,(跨領域)資訊傳媒學分學程,O 接受 Allowed,--
 11110GE  163700,GE 163700,GE1637,GE   通識中心,莊子的人生哲學,The Philosophy of Life in Zhuangzi,2,50,0,人文 Humanities,中文 ZH,"GEN II綜二105	W7W8
 ",W7W8,GEN II綜二,"徐其寧	HSU, CHI-NING",本課程為16週課程,"擋修對象 : 全校 
 先修科目 : 未修過莊子選讀上述條件一定要有，則不擋修。",排除中文系,--,--,X 不接受 Not Allowed,--
@@ -2021,7 +2021,7 @@ EECS資電 326	T7T8
 11110GE  190200,GE 190200,GE1902,GE   通識中心,太空探索：理論與實踐,Space Exploration: Theory and Practice,2,50,0,自然 Natural,英文 EN,"GEN II綜二108	T5T6
 ",T5T6,GEN II綜二,"廖瑩	LIAO, YING",本課程為16週課程,--,--,--,--,O 接受 Allowed,--
 11110GE  191200,GE 191200,GE1912,GE   通識中心,料理中的科學,Science of Cooking,2,70,0,自然 Natural,中文 ZH,"VC虛擬教室	W3W4
-",W3W4,VC虛擬教,"張蓉	CHANG, JUNG","本課程為16週課程,同步遠距教學課程",--,--,--,--,X 不接受 Not Allowed,--
+",W3W4,VC虛擬教室,"張蓉	CHANG, JUNG","本課程為16週課程,同步遠距教學課程",--,--,--,--,X 不接受 Not Allowed,--
 11110GE  193200,GE 193200,GE1932,GE   通識中心,台灣半導體產業發展史,Developmental History of Semiconductor Industry in Taiwan,2,60,0,自然 Natural,中文 ZH,"MXIC旺宏253	F3F4
 ",F3F4,MXIC旺宏,"王俊程	WANG, JYUN-CHENG
 史欽泰	SHIH, CHIN-TAY
@@ -2064,7 +2064,7 @@ EECS資電 326	T7T8
 11110GEC 120100,GEC 120100,GEC1201,GEC  通識核心,當代生命科學,Contemporary Biology and Your Life,2,60,6,核通 GEC 2,中文 ZH,"Nanda南大N101	W5W6
 ",W5W6,Nanda南大,"周秀專	CHOU, HSIU-CHUAN",【108(含)前入學生視為核心向度二】本課程為16週課程,--,--,--,--,O 接受 Allowed,--
 11110GEC 120200,GEC 120200,GEC1202,GEC  通識核心,生態體系與全球變遷,Eco-system and Global Changes,3,100,10,核通 GEC 2,中文 ZH,"VC虛擬教室	TnT5T6
-",TnT5T6,VC虛擬教,"游能悌	YU, NENG-TI","【108(含)前入學生視為核心向度二】本課程為16週課程,面授+同步+非同步遠距教學課程",--,--,--,(跨領域)能源科技與永續社會學分學程/(跨領域)永續發展與環境管理學分學程,O 接受 Allowed,--
+",TnT5T6,VC虛擬教室,"游能悌	YU, NENG-TI","【108(含)前入學生視為核心向度二】本課程為16週課程,面授+同步+非同步遠距教學課程",--,--,--,(跨領域)能源科技與永續社會學分學程/(跨領域)永續發展與環境管理學分學程,O 接受 Allowed,--
 11110GEC 120301,GEC 120301,GEC1203,GEC  通識核心,心理學與現代生活,Psychology and Modern Life,3,50,5,核通 GEC 2,中文 ZH,"EDU教   305	R3R4Rn
 ",R3R4Rn,EDU教   ,"李姝慧	LEE, SHU-HUI","【108(含)前入學生視為核心向度二】16週課程,跨新核心向度二&四(預設二),若欲歸為新向度四請於大四畢審提出","擋修對象 : 全校 
 先修科目 : 未修過現代社會與心理未修過普通心理學未修過心理學未修過心理學(基本科目免修測試)未修過普通心理學一未修過普通心理學二上述條件一定要有，則不擋修。",排除心諮系,--,--,O 接受 Allowed,--
@@ -2235,7 +2235,7 @@ EECS資電 326	T7T8
 11110HIS 111000,HIS 111000,HIS1110,HIS  歷史所,中國歷史的演變發展二,Continuity and Change in Chinese History (II),2,80,0,人文 Humanities,中文 ZH,"MXIC旺宏243	T5T6
 ",T5T6,MXIC旺宏,"張元	CHANG, YUEN",--,--,--,--,--,O 接受 Allowed,--
 11110HIS 213000,HIS 213000,HIS2130,HIS  歷史所,歷史文化經典：《資治通鑑南北朝前期》選讀,Selected Readings from Zizhi tongjian：South and North Dynasty,2,120,0,核通 GEC 1,中文 ZH,"MXIC旺宏懷樸	T7T8
-",T7T8,MXIC旺宏懷,"張元	CHANG, YUEN",108(含)前入學生視為核心向度六。,--,--,--,--,O 接受 Allowed,--
+",T7T8,MXIC旺宏懷樸,"張元	CHANG, YUEN",108(含)前入學生視為核心向度六。,--,--,--,--,O 接受 Allowed,--
 11110HIS 213100,HIS 213100,HIS2131,HIS  歷史所,歷史文化經典：中國上古歷史人物淺談,An Analysis of Chinese Historical Personages,2,60,0,核通 GEC 1,中文 ZH,"Nanda南大2104	R3R4
 ",R3R4,Nanda南大,"許松源	SHU, SUNG-YUAN",本課程不接受停修申請；108(含)前入學生視為核心向度六。,--,--,--,--,O 接受 Allowed,--
 11110HIS 231700,HIS 231700,HIS2317,HIS  歷史所,向大師致敬：探索藝術經典,Tribute to Masters: Exploring Masterpieces of Art,2,20,0,人文 Humanities,中文 ZH,"HSS人社A302	T5T6
@@ -2555,7 +2555,7 @@ EECS資電 326	T7T8
 王子康	WONG, TZE-HONG",本課程不同意一般研究生(含博士生)修課及認定畢業學分，若有特殊情況另案討論。,--,限工工在職班,--,--,O 接受 Allowed,工工在職班111P必修
 11110IIS 500000,IIS 500000,IIS5000,IIS  資安所,資訊安全實作一,Information Security Implementation (I),2,0,0,--,中文 ZH,--,--,--,指導教授	,以加簽方式選課，限資安所碩士班，需有指導教授才可加簽選課。Requiring application in order to enroll i,--,限資安所碩士班,電機工程(一),--,O 接受 Allowed,資安所111M選修
 11110IIS 500200,IIS 500200,IIS5002,IIS  資安所,網路安全,Network Security,3,--,0,--,英文 EN,"VC虛擬教室	WaWbWc
-",WaWbWc,VC虛擬教,艾米爾	AMIR REZAPOUR ZIBA,同步遠距教學,--,--,電機工程(一),--,O 接受 Allowed,資工系111M選修/資安所111M選修
+",WaWbWc,VC虛擬教室,艾米爾	AMIR REZAPOUR ZIBA,同步遠距教學,--,--,電機工程(一),--,O 接受 Allowed,資工系111M選修/資安所111M選修
 11110IIS 690000,IIS 690000,IIS6900,IIS  資安所,論文研究,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,限資安所碩二以上同學，Selectable after successfully completing first year's coursework,--,排除資安所碩士班1年級,--,--,O 接受 Allowed,資安所111M必修
 11110IMBA400100,IMBA 400100,IMBA4001,IMBA IMBA碩士班,人才發展、績效評鑑與薪酬管理,"Talent Development, Performance Assessment, and Compensation Management",2,18,0,--,英文 EN,"TSMC台積428	WaWb
 ",WaWb,TSMC台積,"吳承鴻	WU, CHENG-HONG",本課程為 16 週課程 (16 weeks course),--,--,--,--,O 接受 Allowed,IMBA碩士班111M選修/科管院學士班108BA選修/科管院學士班109BA選修/科管院學士班110BA選修
@@ -2586,12 +2586,12 @@ EECS資電 326	T7T8
 11110IPHD700100,IPHD 700100,IPHD7001,IPHD 跨院國際博士學位,書報討論,Seminar,1,40,10,--,英文 EN,"GEN II綜二205	W5W6
 ",W5W6,GEN II綜二,"陳鴻文	CHEN, HUNG-WEN",跨院博士班一般組必修，obligatory course for general section,--,限不分院,--,--,O 接受 Allowed,跨院國際博士111D選修
 11110IPHD700200,IPHD 700200,IPHD7002,IPHD 跨院國際博士學位,書報討論,Seminar,1,--,0,--,中文 ZH,"Kinmen金門中心	S7S8
-",S7S8,Kinmen金門中,"李瑞光	LEE, RAY-KUANG",教育與公共政策組必修，確切上課時間地點將由學程或金門教育中心另行通知,--,限不分院,--,--,O 接受 Allowed,跨院國際博士111DA選修
+",S7S8,Kinmen金門中心,"李瑞光	LEE, RAY-KUANG",教育與公共政策組必修，確切上課時間地點將由學程或金門教育中心另行通知,--,限不分院,--,--,O 接受 Allowed,跨院國際博士111DA選修
 11110IPHD710000,IPHD 710000,IPHD7100,IPHD 跨院國際博士學位,科技藝術書報討論,Seminar of Technology and Arts,1,10,5,--,中文 ZH,"GEN II綜二604	Ta
 ",Ta,GEN II綜二,"許素朱	HSU, SU-CHU",跨院碩博科技藝術組必修,--,"跨院國際碩士,跨院國際博士優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,跨院國際碩士111M必修/跨院國際博士111DB選修
 11110IPHD710500,IPHD 710500,IPHD7105,IPHD 跨院國際博士學位,人力資源管理研究,Human Resource Management Research,2,--,0,--,中文 ZH,--,--,--,"謝傳崇	HSIEH, CHUAN-CHUNG",限IPHD教育與公共政策組(金門班)選修,--,限跨院國際博士,--,--,O 接受 Allowed,跨院國際博士111DA選修
 11110IPHD750000,IPHD 750000,IPHD7500,IPHD 跨院國際博士學位,英文論文寫作,Writing Research Papers in English,2,--,0,--,英文 EN,"Kinmen金門中心	S5S6
-",S5S6,Kinmen金門中,"黃芸茵	HUANG, YUN-YIN",限IPHD教育與公共政策組(金門班)選修,--,限跨院國際博士,--,--,O 接受 Allowed,跨院國際博士111DA選修
+",S5S6,Kinmen金門中心,"黃芸茵	HUANG, YUN-YIN",限IPHD教育與公共政策組(金門班)選修,--,限跨院國際博士,--,--,O 接受 Allowed,跨院國際博士111DA選修
 11110IPHD800000,IPHD 800000,IPHD8000,IPHD 跨院國際博士學位,論文研究,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,限IPHD博二以上同學，Selectable after successfully completing first year's coursework.,--,排除跨院國際博士博士班1年級,--,--,O 接受 Allowed,跨院國際博士111D必修/跨院國際博士111DA必修/跨院國際博士111DB必修
 11110IPIM600000,IPIM 600000,IPIM6000,IPIM 智慧生產製造產碩專班,論文研究,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,限碩二以上,--,限智生製造產碩專班2年級3年級4年級,--,--,O 接受 Allowed,智生製造產碩專班111M必修
 11110IPNS300100,IPNS 300100,IPNS3001,IPNS 原科院學士班,專題研究一,Undergraduate Research (I),1,--,0,--,中文 ZH,--,--,--,指導教授	,--,--,限原科院學士班,--,--,O 接受 Allowed,原科院學士班109B選修
@@ -3193,12 +3193,12 @@ Nanda南大2106	R3
 11110KELN502500,KELN 502500,KELN5025,KELN 教科系在職專班,跨領域STEAM教育專題研究,Study in Interdisciplinary STEAM Education,3,35,0,--,中文 ZH,"Nanda南大N315	S5S6S7
 ",S5S6S7,Nanda南大,"邱富源	CHIU, FU-YUAN",--,--,限教科系碩士在職專班,--,--,O 接受 Allowed,教科系碩士在職專班111PA選修
 11110KELN505100,KELN 505100,KELN5051,KELN 教科系在職專班,量的研究法,Quantitative Research Methods,2,28,16,--,中文 ZH,"Kinmen金門高中	S1S2
-",S1S2,Kinmen金門高,"李元萱	LEE, YUAN-HSUAN",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC必修
+",S1S2,Kinmen金門高中,"李元萱	LEE, YUAN-HSUAN",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC必修
 11110KELN505200,KELN 505200,KELN5052,KELN 教科系在職專班,質的研究法,Qualitative Research Methods,2,28,16,--,中文 ZH,"Kinmen金門高中	S3S4
-",S3S4,Kinmen金門高,"王為國	WANG, WEI-KUO
+",S3S4,Kinmen金門高中,"王為國	WANG, WEI-KUO
 彭煥勝	PENG, HUAN-SHENG",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC必修
 11110KELN506500,KELN 506500,KELN5065,KELN 教科系在職專班,教育政策專題研究,Special Issues in Educational Policy,2,25,0,--,中文 ZH,"Kinmen金門高中	S5S6
-",S5S6,Kinmen金門高,"顏國樑	YEN, KUO-LIANG",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC選修
+",S5S6,Kinmen金門高中,"顏國樑	YEN, KUO-LIANG",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC選修
 11110KELN510400,KELN 510400,KELN5104,KELN 教科系在職專班,教育行政研究,Study in Educational Administration,3,25,0,--,中文 ZH,"Nanda南大N316	RaRbRc
 ",RaRbRc,Nanda南大,"謝卓君	HSIEH, CHUO-CHUN",--,--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PB選修
 11110KELN510500,KELN 510500,KELN5105,KELN 教科系在職專班,學校行政專題研究,Special Issues in School Administration,3,25,0,--,中文 ZH,"Nanda南大N202	TaTbTc
@@ -3215,9 +3215,9 @@ Nanda南大2106	R3
 11110KELN600500,KELN 600500,KELN6005,KELN 教科系在職專班,教學實務專題研究,Special Issues in Teaching Affairs,3,25,0,--,中文 ZH,"Nanda南大N204	TaTbTc
 ",TaTbTc,Nanda南大,"陳美如	CHEN, MEI-JU",課程專班選修,--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PA選修
 11110KELN605900,KELN 605900,KELN6059,KELN 教科系在職專班,教育行動研究,Educational Action Research,2,25,0,--,中文 ZH,"Kinmen金門高中	S9Sa
-",S9Sa,Kinmen金門高,"林志成	LIN, CHIH-CHENG",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC選修
+",S9Sa,Kinmen金門高中,"林志成	LIN, CHIH-CHENG",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC選修
 11110KELN606800,KELN 606800,KELN6068,KELN 教科系在職專班,教育社會學專題研究,Studies in Sociology of Education,2,25,0,--,中文 ZH,"Kinmen金門高中	S7S8
-",S7S8,Kinmen金門高,"楊慧琪	YANG, HUEI-CHI",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC選修
+",S7S8,Kinmen金門高中,"楊慧琪	YANG, HUEI-CHI",限課程乙組(金門班),--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PC選修
 11110KELN610300,KELN 610300,KELN6103,KELN 教科系在職專班,高等統計與電腦軟體運用,Advanced Statistics and Application of Computer Software,3,25,0,--,中文 ZH,"Nanda南大N414	TaTbTc
 ",TaTbTc,Nanda南大,"賴文堅	LAI, WEN-CHIEN",限教育行政在職專班，三選二規定選修,--,限教科系碩士在職專班專班,--,--,O 接受 Allowed,教科系碩士在職專班111PB選修
 11110KELN610800,KELN 610800,KELN6108,KELN 教科系在職專班,教育政策分析研究,Study in Educational Policy Analysis,3,25,0,--,中文 ZH,"Nanda南大N202	MaMbMc
@@ -3565,18 +3565,18 @@ Nanda南大2106	R3
 ",MaMbMc,Nanda南大,"蔡寶桂	TSAT,PAO-KUEI",--,--,"限教育學院,專班",--,--,O 接受 Allowed,STEAM專班111P必修
 11110KSEN600200,KSEN 600200,KSEN6002,KSEN STEAM碩士在職專班,論文,Thesis,2,--,0,--,中文 ZH,--,--,--,指導教授	,限碩二以上修習，此學分不計入最低畢業應修學分數,--,限STEAM專班2年級,--,--,O 接受 Allowed,--
 11110KSN 500100,KSN 500100,KSN5001,KSN  新加坡心諮碩專班,書報討論與專題寫作一,Journal Reading and Project Writing I,2,25,0,--,中文 ZH,"Singapor新加	WaWb
-",WaWb,Singapor新,"許育光	HSU, YU-KUANG
+",WaWb,Singapor新加,"許育光	HSU, YU-KUANG
 朱惠瓊	CHU, HUI-CHUANG",實際上課地點請參閱專班公告.同步遠距教學.本課程為16 週課程。,--,限新加坡心諮碩班境外專班專班1年級,--,--,O 接受 Allowed,新加坡心諮碩班境外專班111P必修
 11110KSN 500200,KSN 500200,KSN5002,KSN  新加坡心諮碩專班,高等統計與研究方法,Advanced Statistic and Research Method,3,25,0,--,中文 ZH,"Singapor新加	TaTbTc
-",TaTbTc,Singapor新,"張硯評	Chang, Yen-Ping
+",TaTbTc,Singapor新加,"張硯評	Chang, Yen-Ping
 陳承德	CHEN, CHENG-TE","本課程為必選修,與質性研究二擇一,上課地點請參專班公告.同步遠距教學.本課程為16 週課程.",--,限新加坡心諮碩班境外專班專班1年級,--,--,O 接受 Allowed,新加坡心諮碩班境外專班111P選修
 11110KSN 500300,KSN 500300,KSN5003,KSN  新加坡心諮碩專班,諮商與心理治療理論,Theories of Counseling and Psychotherapy,3,25,0,--,中文 ZH,"Singapor新加	FaFbFc
-",FaFbFc,Singapor新,"許育光	HSU, YU-KUANG",實際上課地點請參閱專班公告.本課程為16 週課程。,--,限新加坡心諮碩班境外專班專班1年級,--,--,O 接受 Allowed,新加坡心諮碩班境外專班111P必修
+",FaFbFc,Singapor新加,"許育光	HSU, YU-KUANG",實際上課地點請參閱專班公告.本課程為16 週課程。,--,限新加坡心諮碩班境外專班專班1年級,--,--,O 接受 Allowed,新加坡心諮碩班境外專班111P必修
 11110KSN 500400,KSN 500400,KSN5004,KSN  新加坡心諮碩專班,人類發展與成長專題,Seminar on Human Development and Growth,3,25,0,--,中文 ZH,"Singapor新加	R9RaRb
-",R9RaRb,Singapor新,"詹雨臻	CHAN, YU-CHEN
+",R9RaRb,Singapor新加,"詹雨臻	CHAN, YU-CHEN
 林旖旎	LIN, YI-NII","上課時間為18:00-21:00,實際上課地點請參閱專班公告.同步遠距教學",--,限新加坡心諮碩班境外專班專班1年級,--,--,O 接受 Allowed,新加坡心諮碩班境外專班111P選修
 11110KSN 500500,KSN 500500,KSN5005,KSN  新加坡心諮碩專班,心理診斷與介入,Psychological Diagnosis and Intervention,3,25,0,--,中文 ZH,"Singapor新加	MaMbMc
-",MaMbMc,Singapor新,"李昆樺	LEE, KUN-HUA
+",MaMbMc,Singapor新加,"李昆樺	LEE, KUN-HUA
 孟瑛如	MENG, YING-RU",實際上課地點請參閱專班公告.同步遠距教學,--,限新加坡心諮碩班境外專班專班1年級,--,--,O 接受 Allowed,新加坡心諮碩班境外專班111P選修
 11110KSPE110200,KSPE 110200,KSPE1102,KSPE 特教系,早期介入概論,Introduction to Early Intervention,3,55,42,--,中文 ZH,"Nanda南大2103	R2R3R4
 ",R2R3R4,Nanda南大,"謝協君	HSIEH, HSIEH-CHUN",學前身障組教育基礎科目，本課程為16週課程,--,特教系優先，第3次選課起開放全校修習,特殊教育(二)/特殊教育(一),--,O 接受 Allowed,特教系111B選修
@@ -3669,9 +3669,9 @@ Nanda南大2106	R3
 11110KSS 110401,KSS 110401,KSS1104,KSS  運科系,手球一,Handball (I),1,40,30,--,中文 ZH,"Nanda南大B101	R5R6
 ",R5R6,Nanda南大,"許建民	HSU, CHIEN-MING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,"運科系大學部1年級,男生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,運科系111B選修
 11110KSS 110501,KSS 110501,KSS1105,KSS  運科系,游泳一,Swimming (I),1,40,30,--,中文 ZH,"SWIM Pl.游泳池	W5W6
-",W5W6,SWIM Pl.游泳,"李炫諺	LEE,HSUAN-YEN",上課地點在校本部游泳池。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助,--,"運科系大學部1年級,男生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,運科系111B選修
+",W5W6,SWIM Pl.游泳池,"李炫諺	LEE,HSUAN-YEN",上課地點在校本部游泳池。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助,--,"運科系大學部1年級,男生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,運科系111B選修
 11110KSS 110502,KSS 110502,KSS1105,KSS  運科系,游泳一,Swimming (I),1,40,30,--,中文 ZH,"SWIM Pl.游泳池	W7W8
-",W7W8,SWIM Pl.游泳,"李炫諺	LEE,HSUAN-YEN",上課地點在校本部游泳池。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助,--,"運科系大學部1年級,女生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,運科系111B選修
+",W7W8,SWIM Pl.游泳池,"李炫諺	LEE,HSUAN-YEN",上課地點在校本部游泳池。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助,--,"運科系大學部1年級,女生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,運科系111B選修
 11110KSS 110602,KSS 110602,KSS1106,KSS  運科系,籃球一,Basketball (I),1,20,0,--,中文 ZH,"Nanda南大A507	M1M2
 ",M1M2,Nanda南大,"盧淑雲	LU, SHU-YUN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,"運科系大學部1年級,女生優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,運科系111B選修
 11110KSS 110700,KSS 110700,KSS1107,KSS  運科系,足球一,Soccer (I),1,45,40,--,中文 ZH,"Nanda南大B101	F5F6
@@ -4124,7 +4124,7 @@ Nanda南大2106	R3
 ",R7R8R9,LS II生二 ,"張慧雲	CHANG, HUI-YUN
 桑自剛	SANG, TZU-KANG",--,--,排除生科院,--,(跨領域)生物科技管理學分學程,O 接受 Allowed,--
 11110LS  114300,LS 114300,LS1143,LS   生科系,當代認知神經科學：腦與心智,Contemporary Cognitive Neuroscience: Brain and Mind,3,200,0,核通 GEC 2,中文 ZH,"LS II生二講堂	W7W8W9
-",W7W8W9,LS II生二講,"焦傳金	CHIAO, CHUAN-CHIN","本課程為16週課程,面授+同步遠距教學,【108(含)前入學生視為核心向度二】",--,--,--,(跨領域)語言治療學分學程,O 接受 Allowed,生科系111B選修
+",W7W8W9,LS II生二講堂,"焦傳金	CHIAO, CHUAN-CHIN","本課程為16週課程,面授+同步遠距教學,【108(含)前入學生視為核心向度二】",--,--,--,(跨領域)語言治療學分學程,O 接受 Allowed,生科系111B選修
 11110LS  192100,LS 192100,LS1921,LS   生科系,生科研究導讀一,Life Science Research Introduction I,1,--,0,--,中文 ZH,"LS II生二 109	R6
 ",R6,LS II生二 ,"汪宏達	WANG, HORNG-DAR
 廖品超	LIAO, PIN-CHAO",--,--,限生科院,--,--,O 接受 Allowed,生科系111B選修
@@ -4275,11 +4275,11 @@ Nanda南大2106	R3
 11110LSBT790300,LSBT 790300,LSBT7903,LSBT 生技所,專題討論,Colloquium,1,10,0,--,英文 EN,"LS II生二206	R3R4
 ",R3R4,LS II生二,"邱于芯	CHIU, YU-HSIN",--,--,"限生科院,博士班",--,--,O 接受 Allowed,生技所111D必修
 11110LSC 110100,LSC 110100,LSC1101,LSC  生科院,生命科學一,Life Science I,3,--,0,--,中文 ZH,"LS II生二講堂	R7R8R9
-",R7R8R9,LS II生二講,"黃貞祥	NG, CHEN SIANG
+",R7R8R9,LS II生二講堂,"黃貞祥	NG, CHEN SIANG
 莊永仁	CHUANG, YUNG-JEN
 焦傳金	CHIAO, CHUAN-CHIN","本課程為16週課程,含實中科學班,《磨課師輔助教學 blended learning with MOOCs》,面授+非同步遠距",--,"生科院,大學部優先，第3次選課起開放全校修習",醫學科學(一)/生命科學(一),(跨領域)生物科技管理學分學程,O 接受 Allowed,醫科系111B必修/生科系111B必修/生科院學士班111B必修
 11110LSC 230100,LSC 230100,LSC2301,LSC  生科院,生物化學一,Biochemistry I,3,--,0,--,中文 ZH,"LS II生二講堂	T1T2F2
-",T1T2F2,LS II生二講,"張晃猷	CHANG, HWAN-YOU
+",T1T2F2,LS II生二講堂,"張晃猷	CHANG, HWAN-YOU
 鄭惠春	CHENG, HUI-CHUN
 孫玉珠	SUN, YUH-JU",--,--,--,環境科技學程(二)/醫學科學(二)/醫學科學(一)/生命科學(二)/生命科學(一),(跨領域)生物產業技術學分學程/(跨領域)微系統科技整合學分學程,O 接受 Allowed,醫科系110B必修/生科系110B必修/生科院學士班110B必修
 11110LSC 404000,LSC 404000,LSC4040,LSC  生科院,進階專題研究,Advanced Undergraduate Research,3,--,0,--,中文 ZH,--,--,--,指導教授	,指導教授限生科院專任教師,--,--,--,--,O 接受 Allowed,醫科系108B選修/醫科系109B選修/生科系108B選修/生科系109B選修/生科院學士班108B選修/生科院學士班109B選修
@@ -4324,7 +4324,7 @@ Nanda南大2106	R3
 11110LSMC590102,LSMC 590102,LSMC5901,LSMC 分生所,書報討論,Seminar,1,13,0,--,中文 ZH,"LS II生二218	W5
 ",W5,LS II生二,"徐子勝	HSU, TZU-SHENG",--,--,"限生科院,碩士班",--,--,O 接受 Allowed,分生所111M必修
 11110LSMC590300,LSMC 590300,LSMC5903,LSMC 分生所,專題討論,Colloquium,1,40,0,--,英文 EN,"LS II生二講堂	R3R4
-",R3R4,LS II生二講,"李政昇	LEE, CHENG-SHENG",--,--,"限生科院,碩士班",--,--,O 接受 Allowed,分生所111M必修
+",R3R4,LS II生二講堂,"李政昇	LEE, CHENG-SHENG",--,--,"限生科院,碩士班",--,--,O 接受 Allowed,分生所111M必修
 11110LSMC600200,LSMC 600200,LSMC6002,LSMC 分生所,論文研究,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,限分生所碩二以上同學，Selectable after successfully completing first year's coursework,--,排除碩士班1年級,--,--,O 接受 Allowed,分生所111M必修
 11110LSMC634800,LSMC 634800,LSMC6348,LSMC 分生所,酵素結構與催化機制,Enzyme Structures and Mechanisms,2,--,0,--,英文 EN,"LS II生二220	T3T4
 ",T3T4,LS II生二,"王雯靜	WANG, WEN-CHING",建議須修過生物化學一或生物化學二課程為宜,--,--,--,--,O 接受 Allowed,分生所111D選修/分生所111M選修
@@ -4502,7 +4502,7 @@ GEN III綜三 201	T1T2F1F2
 11110MATH101002,MATH 101002,MATH1010,MATH 數學系,微積分Ａ一,Calculus (I),4,114,110,--,中文 ZH,"DELTA台達109	T1T2F1F2
 ",T1T2F1F2,DELTA台達,"張廷暉	CHANG, TING-HUI","演習課時間M19:00-21:00，地點工科501,502,503",--,工科系大學部1年級優先，第3次選課起開放全校修習,化學(一)/電機工程(一)/電機資訊(一)/工程與系統科學(一)/計量財務金融(一),--,X 不接受 Not Allowed,工科系111BA必修/工科系111BB必修
 11110MATH101003,MATH 101003,MATH1010,MATH 數學系,微積分Ａ一,Calculus (I),4,100,90,--,中文 ZH,"MXIC旺宏懷樸	T1T2F1F2
-",T1T2F1F2,MXIC旺宏懷,未定	,"含實中科學班,演習課時間M19:00-21:00,地點物124,504",--,"原科院學士班大學部1年級,物理系大學部1年級優先，第3次選課起開放全校修習",化學(一)/電機工程(一)/電機資訊(一)/工程與系統科學(一)/物理(一)/計量財務金融(一),--,X 不接受 Not Allowed,原科院學士班111B必修/物理系111BA必修/物理系111BB必修/物理系111BC必修
+",T1T2F1F2,MXIC旺宏懷樸,未定	,"含實中科學班,演習課時間M19:00-21:00,地點物124,504",--,"原科院學士班大學部1年級,物理系大學部1年級優先，第3次選課起開放全校修習",化學(一)/電機工程(一)/電機資訊(一)/工程與系統科學(一)/物理(一)/計量財務金融(一),--,X 不接受 Not Allowed,原科院學士班111B必修/物理系111BA必修/物理系111BB必修/物理系111BC必修
 11110MATH101004,MATH 101004,MATH1010,MATH 數學系,微積分Ａ一,Calculus (I),4,125,110,--,中文 ZH,"EECS資電 206	T1T2F1F2
 ",T1T2F1F2,EECS資電 ,"高淑蓉	KAO, SHU-JUNG","演習課時間M19:00-21:00,地點化121 ,化二223,醫環110",--,"醫環系大學部1年級,化學系大學部1年級優先，第3次選課起開放全校修習",化學(一)/電機工程(一)/電機資訊(一)/工程與系統科學(一)/計量財務金融(一),--,X 不接受 Not Allowed,醫環系111B必修/化學系111B必修
 11110MATH101005,MATH 101005,MATH1010,MATH 數學系,微積分Ａ一,Calculus (I),4,100,100,--,中文 ZH,"GEN III綜三 201	M3M4W1W2
@@ -4522,7 +4522,7 @@ GEN III綜三 201	T1T2F1F2
 11110MATH103005,MATH 103005,MATH1030,MATH 數學系,微積分Ｂ一,Calculus I,3,170,135,--,中文 ZH,"GEN IV綜四121	T3T4R3R4
 ",T3T4R3R4,GEN IV綜四,"顏東勇	YAN, DUNG-YUNG","演習課時間為R19:00-21:00，地點資電127,128,129,131",--,資工系大學部1年級優先，第3次選課起開放全校修習,化學工程(二)/化學工程(一)/資訊工程(二)/資訊工程(一)/醫學科學(一)/經濟(一)/電機資訊(一)/工業工程與工程管理(一)/生命科學(一),(跨領域)音樂科技與健康學分學程,X 不接受 Not Allowed,資工系111BA必修/資工系111BB必修/資工系111BC必修
 11110MATH103006,MATH 103006,MATH1030,MATH 數學系,微積分Ｂ一,Calculus I,3,120,110,--,中文 ZH,"MXIC旺宏懷樸	T3T4R3R4
-",T3T4R3R4,MXIC旺宏懷,"宋瓊珠	SUNG, CHIUNG-JUE","演習課時間W19:00-21:00,地點台積103、104、206",--,"經濟系大學部1年級,科管院學士班大學部1年級優先，第3次選課起開放全校修習",化學工程(二)/化學工程(一)/資訊工程(二)/資訊工程(一)/醫學科學(一)/經濟(一)/電機資訊(一)/工業工程與工程管理(一)/生命科學(一),(跨領域)音樂科技與健康學分學程,X 不接受 Not Allowed,經濟系111BA必修/經濟系111BB必修/科管院學士班111B必修
+",T3T4R3R4,MXIC旺宏懷樸,"宋瓊珠	SUNG, CHIUNG-JUE","演習課時間W19:00-21:00,地點台積103、104、206",--,"經濟系大學部1年級,科管院學士班大學部1年級優先，第3次選課起開放全校修習",化學工程(二)/化學工程(一)/資訊工程(二)/資訊工程(一)/醫學科學(一)/經濟(一)/電機資訊(一)/工業工程與工程管理(一)/生命科學(一),(跨領域)音樂科技與健康學分學程,X 不接受 Not Allowed,經濟系111BA必修/經濟系111BB必修/科管院學士班111B必修
 11110MATH103007,MATH 103007,MATH1030,MATH 數學系,微積分Ｂ一,Calculus I,3,110,100,--,英文 EN,"DELTA台達107	T3T4R3R4
 ",T3T4R3R4,DELTA台達,聘任中	,"教師為李卓彥。Recitation courses in EDU 114&313, 7-9 pm every Wed",--,國際學士班大學部1年級優先，第3次選課起開放全校修習,化學工程(二)/化學工程(一)/資訊工程(二)/資訊工程(一)/醫學科學(一)/經濟(一)/電機資訊(一)/工業工程與工程管理(一)/生命科學(一),(跨領域)音樂科技與健康學分學程,X 不接受 Not Allowed,--
 11110MATH103008,MATH 103008,MATH1030,MATH 數學系,微積分Ｂ一,Calculus I,3,88,70,--,中文 ZH,"MXIC旺宏243	T3T4R3R4
@@ -4614,16 +4614,16 @@ GEN III綜三315	T6
 11110MBA 504100,MBA 504100,MBA5041,MBA  MBA專班,數位經濟與法律,Digital Economy and Law,2,50,25,--,中文 ZH,"TSMC台積901	WaWb
 ",WaWb,TSMC台積,"彭心儀	PENG, SHIN-YI",--,--,"限EMBA專班,EMBA雙聯,健康經管專班,MBA專班,財金專班,公共政策與管理碩士專班",--,--,X 不接受 Not Allowed,EMBA專班111P選修/EMBA雙聯111P選修/健康經管專班111P選修/MBA專班111P選修/財金專班111P選修/公共政策與管理碩士專班111P選修
 11110MBA 550101,MBA 550101,MBA5501,MBA  MBA專班,行銷管理,Marketing Management,2,25,0,--,中文 ZH,"Kinmen金門中心	S9Sa
-",S9Sa,Kinmen金門中,"丘宏昌	CHIU, HUNG-CHANG",MBA金門班(地點:金馬聯合服務中心),--,限MBA專班專班1年級2年級,--,--,X 不接受 Not Allowed,MBA專班111PA必修
+",S9Sa,Kinmen金門中心,"丘宏昌	CHIU, HUNG-CHANG",MBA金門班(地點:金馬聯合服務中心),--,限MBA專班專班1年級2年級,--,--,X 不接受 Not Allowed,MBA專班111PA必修
 11110MBA 551101,MBA 551101,MBA5511,MBA  MBA專班,策略,Strategy,2,25,0,--,中文 ZH,"Kinmen金門中心	S7S8
-",S7S8,Kinmen金門中,"洪世章	HUNG, SHIH-CHANG",MBA金門班(地點:金馬聯合服務中心),--,限MBA專班,--,--,X 不接受 Not Allowed,MBA專班111PA必修
+",S7S8,Kinmen金門中心,"洪世章	HUNG, SHIH-CHANG",MBA金門班(地點:金馬聯合服務中心),--,限MBA專班,--,--,X 不接受 Not Allowed,MBA專班111PA必修
 11110MBA 553100,MBA 553100,MBA5531,MBA  MBA專班,新市場策略,New market strategy,2,25,0,--,中文 ZH,"Kinmen金門中心	SbSc
-",SbSc,Kinmen金門中,吳清炎	WU. CHING-YAN,MBA金門班(地點:金馬聯合服務中心),--,限MBA專班專班1年級2年級,--,--,X 不接受 Not Allowed,MBA專班111PA選修
+",SbSc,Kinmen金門中心,吳清炎	WU. CHING-YAN,MBA金門班(地點:金馬聯合服務中心),--,限MBA專班專班1年級2年級,--,--,X 不接受 Not Allowed,MBA專班111PA選修
 11110MBA 555900,MBA 555900,MBA5559,MBA  MBA專班,公共政策分析,Public Policy Analysis,2,25,0,--,中文 ZH,"Kinmen金門中心	S3S4
-",S3S4,Kinmen金門中,"林世昌	LIN, SHIH-CHANG
+",S3S4,Kinmen金門中心,"林世昌	LIN, SHIH-CHANG
 吳世英	WU, SHIH-YING",MBA金門班(地點:金馬聯合服務中心),--,限MBA專班專班1年級2年級,--,--,X 不接受 Not Allowed,MBA專班111PA必修
 11110MBA 557300,MBA 557300,MBA5573,MBA  MBA專班,科技、企業與法律,"Law, Business and Technology",2,25,0,--,中文 ZH,"Kinmen金門中心	S5S6
-",S5S6,Kinmen金門中,"蔡昌憲	TSAI, CHANG-HSIEN
+",S5S6,Kinmen金門中心,"蔡昌憲	TSAI, CHANG-HSIEN
 范建得	FAN, CHIEN TE",MBA金門班(地點:金馬聯合服務中心),--,限MBA專班專班1年級2年級,--,--,X 不接受 Not Allowed,MBA專班111PA選修
 11110MFB 500100,MFB 500100,MFB5001,MFB  財金碩士專班,數據分析,Data analysis,3,--,0,--,中文 ZH,--,--,--,"黃裕烈	HUANG, YU-LIEH",週日下午課程、地點:台北,--,限財金專班專班1年級,--,--,O 接受 Allowed,財金專班111P必修
 11110MFB 500200,MFB 500200,MFB5002,MFB  財金碩士專班,公司理財,Corporate Finance,3,--,0,--,中文 ZH,"TSMC台積428	S2S3S4
@@ -4661,7 +4661,7 @@ GEN III綜三315	T6
 ",S8S9Sa,TSMC台積,"劉瑞華	LIU, RUEY-HUA
 黃春興	HWANG, CHUN-SIN",--,--,限公共政策與管理碩士專班,--,--,O 接受 Allowed,公共政策與管理碩士專班111P選修
 11110MPM 501800,MPM 501800,MPM5018,MPM  公共政策與管理專班,戰地政務的挑戰與啟發,Public Policy in Kinmen,2,0,0,--,中文 ZH,"Kinmen金門中心	MaMb
-",MaMb,Kinmen金門中,"吳世英	WU, SHIH-YING",--,--,限公共政策與管理碩士專班,--,--,O 接受 Allowed,公共政策與管理碩士專班111P選修
+",MaMb,Kinmen金門中心,"吳世英	WU, SHIH-YING",--,--,限公共政策與管理碩士專班,--,--,O 接受 Allowed,公共政策與管理碩士專班111P選修
 11110MPM 509900,MPM 509900,MPM5099,MPM  公共政策與管理專班,論文,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,MPM一年級學生不得選課,--,限公共政策與管理碩士專班專班2年級,--,--,O 接受 Allowed,公共政策與管理碩士專班111P必修
 11110MS  102100,MS 102100,MS1021,MS   材料系,材料科學與工程一,Material Science and Engineering  I,3,150,100,--,英文 EN,"GEN IV綜四224	R1R2F3F4
 ",R1R2F3F4,GEN IV綜四,"葉安洲	YEH, AN-CHOU","院學士班請修03組(T78W78廖建能教師開設).每週150分鐘,其餘為彈性補課時間",--,限材料系大學部,材料科學工程(二)/材料科學工程(一),--,O 接受 Allowed,材料系111BA必修/材料系111BB必修
@@ -4676,7 +4676,7 @@ GEN III綜三315	T6
 ",M1M2R1R2,DELTA台達,"李奕賢	LEE, YI-HSIEN",本課程上4小時。,"擋修對象 : 材料系大學部 
 先修科目 : 曾修微積分一曾修高等微積分一曾修高等微積分二曾修微積分二曾修微積分Ａ一曾修微積分Ｂ一曾修微積分Ｂ二曾修微積分一(數學系)曾修微積分二(數學系)曾修微積分Ａ二曾修微積分一(數學系)(基本科目免修測試)曾修微積分Ａ一(基本科目免修測試)曾修微積分Ｂ一(基本科目免修測試)上述條件任選一科，則不擋修。",限材料系大學部2年級3年級4年級,材料科學工程(一),--,O 接受 Allowed,材料系110BA必修/材料系110BB必修
 11110MS  202100,MS 202100,MS2021,MS   材料系,材料熱力學一,Thermodynamics of Materials I,3,200,0,--,英文 EN,"DELTA台達璟德	M3M4W1W2
-",M3M4W1W2,DELTA台達璟,"陳翰儀	CHEN, HAN-YI",本課程上150分鐘，其餘時間由教授彈性運用,"擋修對象 : 材料系大學部 
+",M3M4W1W2,DELTA台達璟德,"陳翰儀	CHEN, HAN-YI",本課程上150分鐘，其餘時間由教授彈性運用,"擋修對象 : 材料系大學部 
 先修科目 : 曾修微積分一曾修高等微積分一曾修高等微積分二曾修微積分二曾修微積分Ａ一曾修微積分Ｂ一曾修微積分Ｂ二曾修微積分一(數學系)曾修微積分二(數學系)曾修微積分Ａ二曾修微積分一(數學系)(基本科目免修測試)曾修微積分Ａ一(基本科目免修測試)曾修微積分Ｂ一(基本科目免修測試)上述條件任選一科，則不擋修。",限材料系大學部2年級3年級4年級,材料科學工程(二)/材料科學工程(一)/核工與能源(二),--,O 接受 Allowed,材料系110BA必修/材料系110BB必修
 11110MS  204100,MS 204100,MS2041,MS   材料系,結晶繞射概論,Introduction to Crystal Structure and Diffraction Theories,3,150,0,--,中文 ZH,"DELTA台達B03	W3W4F3F4
 ",W3W4F3F4,DELTA台達,"蔡哲正	TSAI, CHO-JEN",本課程上150分鐘，其餘時間由教授彈性運用,"擋修對象 : 全校 
@@ -4711,7 +4711,7 @@ DELTA台達B05	W7
 先修科目 : 曾修材料科學曾修材料科學導論一曾修材料科學與工程一曾修材料科學與工程二曾修材料科學導論上述條件任選一科，則不擋修。","材料系,前瞻產博學程優先，第3次選課起開放全校修習",材料科學工程(二)/材料科學工程(一),(跨領域)奈米與光電半導體產業學分學程,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111D選修/材料系111M選修
 11110MS  401100,MS 401100,MS4011,MS   材料系,材料科學專題一,Special Topics on Materials Science I,2,80,0,--,中文 ZH,--,--,--,指導教授	,自行洽詢本系指導教授，開學後2週內交指導老師確認卡至系辦，並回覆網址為 https://forms.gle/VvmtbFt9QVjp,--,材料系大學部1年級2年級3年級4年級優先，第3次選課起開放全校修習,--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修
 11110MS  402100,MS 402100,MS4021,MS   材料系,製造工程學一,Manufacturing Engineering and Technology (I),3,250,0,--,中文 ZH,"DELTA台達璟德	T1T2F1F2
-",T1T2F1F2,DELTA台達璟,"葉均蔚	YEH, JIEN-WEI",本課程上150分鐘，其餘時間由教授彈性運用,--,"材料系,前瞻產博學程優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111D選修/材料系111M選修
+",T1T2F1F2,DELTA台達璟德,"葉均蔚	YEH, JIEN-WEI",本課程上150分鐘，其餘時間由教授彈性運用,--,"材料系,前瞻產博學程優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111D選修/材料系111M選修
 11110MS  404100,MS 404100,MS4041,MS   材料系,薄膜工程,Thin Film Engineering,3,70,0,--,中文 ZH,"DELTA台達B05	T5T6F5F6
 ",T5T6F5F6,DELTA台達,"周麗新	CHOU, LIH-HSIN",本課程上150分鐘，其餘時間由教授彈性運用,--,--,--,(跨領域)奈米與光電半導體產業學分學程/(跨領域)微系統科技整合學分學程,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111D選修/材料系111M選修
 11110MS  412000,MS 412000,MS4120,MS   材料系,有機化學,Organic Chemistry,3,36,0,--,英文 EN,"DELTA台達B08	T5T6R6
@@ -4721,11 +4721,11 @@ DELTA台達B05	W7
 11110MS  435200,MS 435200,MS4352,MS   材料系,應用光電子學,Applied Photonics,3,40,0,--,英文 EN,"DELTA台達B08	W2W3W4
 ",W2W3W4,DELTA台達,"呂明諺	LU, MING-YEN",--,--,"材料系,前瞻產博學程優先，第3次選課起開放全校修習",--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111D選修/材料系111M選修
 11110MS  441100,MS 441100,MS4411,MS   材料系,業界導師講座,The Lectures on Industrial Mentor Program,1,250,0,--,中文 ZH,"DELTA台達璟德	W7W8
-",W7W8,DELTA台達璟,"陳學仕	CHEN, HSUEH-SHIH",--,--,--,--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111BA選修/材料系111BB選修/材料系111D選修/材料系111M選修
+",W7W8,DELTA台達璟德,"陳學仕	CHEN, HSUEH-SHIH",--,--,--,--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111BA選修/材料系111BB選修/材料系111D選修/材料系111M選修
 11110MS  463500,MS 463500,MS4635,MS   材料系,工程倫理,Engineering Ethics,3,100,0,--,中文 ZH,"MS材料511	T7T8T9
 ",T7T8T9,MS材料,"周卓煇	JOU, JWO-HUEI",大學部可列入其他選修學分；研究所 (碩、 博)列入可承認至多”6學分”之範疇。,--,--,--,--,O 接受 Allowed,材料系108BA選修/材料系108BB選修/材料系109BA選修/材料系109BB選修/材料系110BA選修/材料系110BB選修/材料系111BA選修/材料系111BB選修/材料系111D選修/材料系111M選修
 11110MS  500000,MS 500000,MS5000,MS   材料系,書報討論,Seminar,1,250,0,--,中文 ZH,"DELTA台達璟德	R7R8
-",R7R8,DELTA台達璟,"朱英豪	CHU, YING-HAO",--,--,"限材料系碩士班博士班,前瞻產博學程碩士班博士班",--,--,O 接受 Allowed,材料系111D必修/材料系111M必修
+",R7R8,DELTA台達璟德,"朱英豪	CHU, YING-HAO",--,--,"限材料系碩士班博士班,前瞻產博學程碩士班博士班",--,--,O 接受 Allowed,材料系111D必修/材料系111M必修
 11110MS  501100,MS 501100,MS5011,MS   材料系,固態熱力學,Thermodynamics of Solid State,3,65,0,--,英文 EN,"MS材料511	T3T4R3R4
 ",T3T4R3R4,MS材料,"彭宗平	PERNG, TSONG-PYNG",博士班同學若碩士已修習過此科者請勿再修習，大學部修課採加簽申請。,--,"限材料系碩士班博士班,前瞻產博學程碩士班博士班",--,--,O 接受 Allowed,半導體學院111D選修/半導體學院111M選修/材料系111D必修/材料系111M必修/前瞻產博學程111D必修
 11110MS  502100,MS 502100,MS5021,MS   材料系,電子顯微鏡學,Transmission Electron Microscopy,3,150,0,--,中文 ZH,"DELTA台達B03	T5T6R5R6
@@ -4856,198 +4856,198 @@ DELTA台達B05	W7
 11110PE  111045,PE 111045,PE1110,PE   體育室,大一體育,Physical Education,0,--,0,--,中文 ZH,--,--,--,聘任中	,集合地點email通知。校友館上羽球課請備乾淨室內鞋;重大或特殊傷病者請主動說明,--,限藝設系大學部1年級華班,--,--,O 接受 Allowed,藝設系111BB必修
 11110PE  111046,PE 111046,PE1110,PE   體育室,大一體育,Physical Education,0,--,0,--,中文 ZH,--,--,--,"王俊盛	WANG, CHUN-SHENG","集合地點email通知,擇期補課。重大或特殊傷病者請主動說明",--,限音樂系大學部1年級,--,--,O 接受 Allowed,音樂系111B必修
 11110PE  205001,PE 205001,PE2050,PE   體育室,核心肌力,Core Strength,0,36,0,--,中文 ZH,"alum Gym校友PE館	M1M2
-",M1M2,alum Gym校友PE,"李柏均	LEE, PO-CHUN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M1M2,alum Gym校友PE館,"李柏均	LEE, PO-CHUN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205002,PE 205002,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Old Gym桌球場	M1M2
-",M1M2,Old Gym桌球,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M1M2,Old Gym桌球場,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205003,PE 205003,PE2050,PE   體育室,游泳初學,Swimming(basic),0,36,0,--,中文 ZH,"SWIM Pl.游泳池	M1M2
-",M1M2,SWIM Pl.游泳,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M1M2,SWIM Pl.游泳池,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205004,PE 205004,PE2050,PE   體育室,游泳初學,Swimming(basic),0,36,0,--,中文 ZH,"SWIM Pl.游泳池	M3M4
-",M3M4,SWIM Pl.游泳,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M3M4,SWIM Pl.游泳池,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205005,PE 205005,PE2050,PE   體育室,核心肌力,Core Strength,0,36,0,--,中文 ZH,"alum Gym校友PE館	M3M4
-",M3M4,alum Gym校友PE,"李柏均	LEE, PO-CHUN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M3M4,alum Gym校友PE館,"李柏均	LEE, PO-CHUN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205006,PE 205006,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Old Gym桌球場	M3M4
-",M3M4,Old Gym桌球,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M3M4,Old Gym桌球場,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205007,PE 205007,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	M3M4
-",M3M4,WT Rm.重訓,"周宜辰	CHOU, YI-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M3M4,WT Rm.重訓室,"周宜辰	CHOU, YI-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205008,PE 205008,PE2050,PE   體育室,慢壘,Softball,0,36,0,--,中文 ZH,"Stadium棒球場	M3M4
-",M3M4,Stadium棒球,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M3M4,Stadium棒球場,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205009,PE 205009,PE2050,PE   體育室,跆拳道,Tae kwon do,0,36,0,--,中文 ZH,"PEC柔道教室	M5M6
-",M5M6,PEC柔道教,"戴偉國	TAI, WEI-KUO",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M5M6,PEC柔道教室,"戴偉國	TAI, WEI-KUO",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205010,PE 205010,PE2050,PE   體育室,射擊初學,Shooting,0,20,0,--,中文 ZH,--,--,--,"葉志俊	YEH, CHIH-CHUN",訓練地點為風雲樓B1。患有重大傷病或特殊病史同學請主動提出,--,--,--,--,X 不接受 Not Allowed,--
 11110PE  205011,PE 205011,PE2050,PE   體育室,核心肌力,Core Strength,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	M7M8
-",M7M8,Dance Rm舞蹈教,"林國威	LIN, KUO-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",M7M8,Dance Rm舞蹈教室,"林國威	LIN, KUO-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205012,PE 205012,PE2050,PE   體育室,射擊初學,Shooting,0,20,0,--,中文 ZH,--,--,--,"葉志俊	YEH, CHIH-CHUN",訓練地點為風雲樓B1。患有重大傷病或特殊病史同學請主動提出,--,--,--,--,X 不接受 Not Allowed,--
 11110PE  205013,PE 205013,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Old Gym桌球場	T1T2
-",T1T2,Old Gym桌球,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T1T2,Old Gym桌球場,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205014,PE 205014,PE2050,PE   體育室,健走體適能,Exercise walking and Physical fitness,0,36,0,--,中文 ZH,"Stadium田徑場	T1T2
-",T1T2,Stadium田徑,"張祐華	CHANG, YU-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T1T2,Stadium田徑場,"張祐華	CHANG, YU-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205015,PE 205015,PE2050,PE   體育室,核心肌力,Core Strength,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	T1T2
-",T1T2,Dance Rm舞蹈教,"林國威	LIN, KUO-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T1T2,Dance Rm舞蹈教室,"林國威	LIN, KUO-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205016,PE 205016,PE2050,PE   體育室,籃球進階,Basketball(advance),0,36,0,--,中文 ZH,"Gym體育館2F	T1T2
 ",T1T2,Gym體育館,"謝文偉	HSIEH, WEN-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205017,PE 205017,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Old Gym桌球場	T3T4
-",T3T4,Old Gym桌球,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,Old Gym桌球場,"鄭兆光	ZHENG, ZHAO-GUANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205018,PE 205018,PE2050,PE   體育室,游泳初學,Swimming(basic),0,36,0,--,中文 ZH,"SWIM Pl.游泳池	T3T4
-",T3T4,SWIM Pl.游泳,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,SWIM Pl.游泳池,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205019,PE 205019,PE2050,PE   體育室,排球,Volleyball,0,36,0,--,中文 ZH,"Gym體育館2F	T3T4
 ",T3T4,Gym體育館,"施惠方	SZU, HUI-FANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205020,PE 205020,PE2050,PE   體育室,速度、敏捷及反應訓練,"Speed, agility and quickness training",0,36,0,--,中文 ZH,"Stadium田徑場	T3T4
-",T3T4,Stadium田徑,"張祐華	CHANG, YU-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,Stadium田徑場,"張祐華	CHANG, YU-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205021,PE 205021,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	T3T4
-",T3T4,WT Rm.重訓,"周宜辰	CHOU, YI-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,WT Rm.重訓室,"周宜辰	CHOU, YI-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205022,PE 205022,PE2050,PE   體育室,定向越野,Orienteering,0,36,0,--,中文 ZH,"Stadium田徑場	T3T4
-",T3T4,Stadium田徑,"余杰霖	YU, CHIEH-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,Stadium田徑場,"余杰霖	YU, CHIEH-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205023,PE 205023,PE2050,PE   體育室,太極拳中級,Tai Chi (Intermediate),0,36,0,--,中文 ZH,"PEC柔道教室	T3T4
-",T3T4,PEC柔道教,"張耀庭	CHANG, YAO-TING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,PEC柔道教室,"張耀庭	CHANG, YAO-TING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205024,PE 205024,PE2050,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"alum Gym校友PE館	T3T4
-",T3T4,alum Gym校友PE,"許仁豪	HSU,JEN-HAO",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T3T4,alum Gym校友PE館,"許仁豪	HSU,JEN-HAO",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205025,PE 205025,PE2050,PE   體育室,網球進階,Tennis(advance),0,30,0,--,中文 ZH,"Stadium網球場	T5T6
-",T5T6,Stadium網球,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,Stadium網球場,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205026,PE 205026,PE2050,PE   體育室,足球女,football,0,36,0,--,中文 ZH,"Stadium足球場	T5T6
-",T5T6,Stadium足球,方靖仁	靖仁,患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,限女生,--,--,O 接受 Allowed,--
+",T5T6,Stadium足球場,方靖仁	靖仁,患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,限女生,--,--,O 接受 Allowed,--
 11110PE  205027,PE 205027,PE2050,PE   體育室,羽球進階,Badminton(advance),0,32,0,--,中文 ZH,"alum Gym校友PE館	T5T6
-",T5T6,alum Gym校友PE,"許仁豪	HSU,JEN-HAO",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,alum Gym校友PE館,"許仁豪	HSU,JEN-HAO",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205028,PE 205028,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,30,0,--,中文 ZH,"Old Gym桌球場	T5T6
-",T5T6,Old Gym桌球,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,Old Gym桌球場,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205029,PE 205029,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	T5T6
-",T5T6,WT Rm.重訓,"周宜辰	CHOU, YI-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,WT Rm.重訓室,"周宜辰	CHOU, YI-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205030,PE 205030,PE2050,PE   體育室,瑜珈,Yoga,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	T5T6
-",T5T6,Dance Rm舞蹈教,"張介	CHANG, CHIEH",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,Dance Rm舞蹈教室,"張介	CHANG, CHIEH",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205031,PE 205031,PE2050,PE   體育室,游泳進階,Swimming(advance),0,36,0,--,中文 ZH,"SWIM Pl.游泳池	T5T6
-",T5T6,SWIM Pl.游泳,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,SWIM Pl.游泳池,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205032,PE 205032,PE2050,PE   體育室,太極拳,Tai Chi,0,36,0,--,中文 ZH,"PEC柔道教室	T5T6
-",T5T6,PEC柔道教,"張耀庭	CHANG, YAO-TING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,PEC柔道教室,"張耀庭	CHANG, YAO-TING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205033,PE 205033,PE2050,PE   體育室,定向越野,Orienteering,0,36,0,--,中文 ZH,"Stadium田徑場	T5T6
-",T5T6,Stadium田徑,"余杰霖	YU, CHIEH-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,Stadium田徑場,"余杰霖	YU, CHIEH-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205034,PE 205034,PE2050,PE   體育室,高爾夫球,Golf,0,26,0,--,中文 ZH,--,--,--,"謝文偉	HSIEH, WEN-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。前三堂在視聽教室，須自付保險及練習費。,--,--,--,--,O 接受 Allowed,--
 11110PE  205035,PE 205035,PE2050,PE   體育室,棒球,Baseball,0,36,0,--,中文 ZH,"Stadium棒球場	T5T6
-",T5T6,Stadium棒球,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T5T6,Stadium棒球場,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205036,PE 205036,PE2050,PE   體育室,網球進階,Tennis(advance),0,30,0,--,中文 ZH,"Stadium網球場	T7T8
-",T7T8,Stadium網球,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T7T8,Stadium網球場,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205037,PE 205037,PE2050,PE   體育室,足球男,football,0,36,0,--,中文 ZH,"Stadium足球場	T7T8
-",T7T8,Stadium足球,"張凱翔	CHANG, KAI-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,限男生,--,--,O 接受 Allowed,--
+",T7T8,Stadium足球場,"張凱翔	CHANG, KAI-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,限男生,--,--,O 接受 Allowed,--
 11110PE  205038,PE 205038,PE2050,PE   體育室,棒球,Baseball,0,36,0,--,中文 ZH,"Stadium棒球場	T7T8
-",T7T8,Stadium棒球,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T7T8,Stadium棒球場,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205039,PE 205039,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,30,0,--,中文 ZH,"Old Gym桌球場	T7T8
-",T7T8,Old Gym桌球,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T7T8,Old Gym桌球場,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205040,PE 205040,PE2050,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"alum Gym校友PE館	T7T8
-",T7T8,alum Gym校友PE,"許仁豪	HSU,JEN-HAO",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T7T8,alum Gym校友PE館,"許仁豪	HSU,JEN-HAO",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205041,PE 205041,PE2050,PE   體育室,太極拳,Tai Chi,0,36,0,--,中文 ZH,"PEC柔道教室	T7T8
-",T7T8,PEC柔道教,"張耀庭	CHANG, YAO-TING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T7T8,PEC柔道教室,"張耀庭	CHANG, YAO-TING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205042,PE 205042,PE2050,PE   體育室,瑜珈,Yoga,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	T7T8
-",T7T8,Dance Rm舞蹈教,"張介	CHANG, CHIEH",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",T7T8,Dance Rm舞蹈教室,"張介	CHANG, CHIEH",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205043,PE 205043,PE2050,PE   體育室,SUP 立式划槳,Stand up Paddle,0,20,0,--,中文 ZH,"SWIM Pl.游泳池	T7T8
-",T7T8,SWIM Pl.游泳,陳國華	TAN KOK HWA,"第1週未到課者勿加簽本課,須能夠游完100M，腳不落地。有重大傷病或特殊病史請主動向授課老師說明。",--,--,--,--,O 接受 Allowed,--
+",T7T8,SWIM Pl.游泳池,陳國華	TAN KOK HWA,"第1週未到課者勿加簽本課,須能夠游完100M，腳不落地。有重大傷病或特殊病史請主動向授課老師說明。",--,--,--,--,O 接受 Allowed,--
 11110PE  205044,PE 205044,PE2050,PE   體育室,籃球初學,Basketball(basic),0,36,0,--,中文 ZH,"Gym體育館2F	W1W2
 ",W1W2,Gym體育館,"盧淑雲	LU, SHU-YUN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205045,PE 205045,PE2050,PE   體育室,空手道,Karate,0,36,0,--,中文 ZH,"PEC柔道教室	W1W2
-",W1W2,PEC柔道教,"劉雅甄	Ya-Chen,Liu",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W1W2,PEC柔道教室,"劉雅甄	Ya-Chen,Liu",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205046,PE 205046,PE2050,PE   體育室,籃球初學,Basketball(basic),0,36,0,--,中文 ZH,"Gym體育館2F	W3W4
 ",W3W4,Gym體育館,"盧淑雲	LU, SHU-YUN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205047,PE 205047,PE2050,PE   體育室,游泳初學,Swimming(basic),0,36,0,--,中文 ZH,"SWIM Pl.游泳池	W3W4
-",W3W4,SWIM Pl.游泳,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W3W4,SWIM Pl.游泳池,"李大麟	LEE, TA-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205048,PE 205048,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	W3W4
-",W3W4,WT Rm.重訓,"黃惠芝	HUANG, HUI-TZU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W3W4,WT Rm.重訓室,"黃惠芝	HUANG, HUI-TZU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205049,PE 205049,PE2050,PE   體育室,瑜珈,Yoga,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	W3W4
-",W3W4,Dance Rm舞蹈教,"張介	CHANG, CHIEH",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W3W4,Dance Rm舞蹈教室,"張介	CHANG, CHIEH",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205050,PE 205050,PE2050,PE   體育室,空手道,Karate,0,36,0,--,中文 ZH,"PEC柔道教室	W3W4
-",W3W4,PEC柔道教,"劉雅甄	Ya-Chen,Liu",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W3W4,PEC柔道教室,"劉雅甄	Ya-Chen,Liu",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205051,PE 205051,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	W5W6
-",W5W6,WT Rm.重訓,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W5W6,WT Rm.重訓室,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205052,PE 205052,PE2050,PE   體育室,排球,Volleyball,0,36,0,--,中文 ZH,"Gym體育館2F	W5W6
 ",W5W6,Gym體育館,"葉煌典	HSIEH, HUANG-TIEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205053,PE 205053,PE2050,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"alum Gym校友PE館	W5W6
-",W5W6,alum Gym校友PE,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W5W6,alum Gym校友PE館,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205054,PE 205054,PE2050,PE   體育室,柔道,Judo,0,36,0,--,中文 ZH,"PEC柔道教室	W5W6
-",W5W6,PEC柔道教,"劉振華	FIU, CHEN-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W5W6,PEC柔道教室,"劉振華	FIU, CHEN-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205055,PE 205055,PE2050,PE   體育室,網球初學,Tennis(basic),0,30,0,--,中文 ZH,"Stadium網球場	W5W6
-",W5W6,Stadium網球,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W5W6,Stadium網球場,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205056,PE 205056,PE2050,PE   體育室,足球女,football,0,36,0,--,中文 ZH,"Stadium足球場	W5W6
-",W5W6,Stadium足球,陳國華	TAN KOK HWA,"第1週未到課者勿加簽本課,患有重大傷病或特殊病史同學請主動向授課老師說明以提供協助。不接受加簽。",--,限女生,--,--,X 不接受 Not Allowed,--
+",W5W6,Stadium足球場,陳國華	TAN KOK HWA,"第1週未到課者勿加簽本課,患有重大傷病或特殊病史同學請主動向授課老師說明以提供協助。不接受加簽。",--,限女生,--,--,X 不接受 Not Allowed,--
 11110PE  205057,PE 205057,PE2050,PE   體育室,瑜珈初學,Yoga(basic),0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	W5W6
-",W5W6,Dance Rm舞蹈教,"黃惠芝	HUANG, HUI-TZU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W5W6,Dance Rm舞蹈教室,"黃惠芝	HUANG, HUI-TZU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205058,PE 205058,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	W7W8
-",W7W8,WT Rm.重訓,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W7W8,WT Rm.重訓室,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205059,PE 205059,PE2050,PE   體育室,排球,Volleyball,0,36,0,--,中文 ZH,"Gym體育館2F	W7W8
 ",W7W8,Gym體育館,"葉煌典	HSIEH, HUANG-TIEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205060,PE 205060,PE2050,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"alum Gym校友PE館	W7W8
-",W7W8,alum Gym校友PE,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W7W8,alum Gym校友PE館,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205061,PE 205061,PE2050,PE   體育室,柔道,Judo,0,36,0,--,中文 ZH,"PEC柔道教室	W7W8
-",W7W8,PEC柔道教,"劉振華	FIU, CHEN-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W7W8,PEC柔道教室,"劉振華	FIU, CHEN-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205062,PE 205062,PE2050,PE   體育室,網球進階,Tennis(advance),0,30,0,--,中文 ZH,"Stadium網球場	W7W8
-",W7W8,Stadium網球,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W7W8,Stadium網球場,"鄭為仁	CHENG, WEI-JEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205063,PE 205063,PE2050,PE   體育室,足球男,football,0,36,0,--,中文 ZH,"Stadium足球場	W7W8
-",W7W8,Stadium足球,陳國華	TAN KOK HWA,"第1週未到課者勿加簽本課,患有重大傷病或特殊病史同學請主動向授課老師說明以提供協助。不接受加簽。",--,限男生,--,--,X 不接受 Not Allowed,--
+",W7W8,Stadium足球場,陳國華	TAN KOK HWA,"第1週未到課者勿加簽本課,患有重大傷病或特殊病史同學請主動向授課老師說明以提供協助。不接受加簽。",--,限男生,--,--,X 不接受 Not Allowed,--
 11110PE  205064,PE 205064,PE2050,PE   體育室,皮拉提斯,Pilates,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	W7W8
-",W7W8,Dance Rm舞蹈教,"黃惠芝	HUANG, HUI-TZU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W7W8,Dance Rm舞蹈教室,"黃惠芝	HUANG, HUI-TZU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205065,PE 205065,PE2050,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"alum Gym校友PE館	R1R2
-",R1R2,alum Gym校友PE,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R1R2,alum Gym校友PE館,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205066,PE 205066,PE2050,PE   體育室,網球初學,Tennis(basic),0,30,0,--,中文 ZH,"Stadium網球場	R1R2
-",R1R2,Stadium網球,"邵心平	SHAO, HSIN-PING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R1R2,Stadium網球場,"邵心平	SHAO, HSIN-PING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205067,PE 205067,PE2050,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"alum Gym校友PE館	R3R4
-",R3R4,alum Gym校友PE,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R3R4,alum Gym校友PE館,"朱真儀	CHU, CHEN-YI",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205068,PE 205068,PE2050,PE   體育室,網球初學,Tennis(basic),0,30,0,--,中文 ZH,"Stadium網球場	R3R4
-",R3R4,Stadium網球,"邵心平	SHAO, HSIN-PING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R3R4,Stadium網球場,"邵心平	SHAO, HSIN-PING",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205069,PE 205069,PE2050,PE   體育室,瑜珈提斯,Yogalates,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	R3R4
-",R3R4,Dance Rm舞蹈教,"許芸榛	HSU, YUN-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R3R4,Dance Rm舞蹈教室,"許芸榛	HSU, YUN-CHEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205070,PE 205070,PE2050,PE   體育室,慢壘,Softball,0,36,0,--,中文 ZH,"Stadium棒球場	R5R6
-",R5R6,Stadium棒球,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,Stadium棒球場,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205071,PE 205071,PE2050,PE   體育室,網球初學,Tennis(basic),0,30,0,--,中文 ZH,"Stadium網球場	R5R6
-",R5R6,Stadium網球,"王汶琳	WANG, WEN-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,Stadium網球場,"王汶琳	WANG, WEN-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205072,PE 205072,PE2050,PE   體育室,爵士舞,Jazz Dance,0,36,0,--,中文 ZH,"alum Gym校友PE館	R5R6
-",R5R6,alum Gym校友PE,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,alum Gym校友PE館,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205073,PE 205073,PE2050,PE   體育室,武術散打,Physical Training:：san da,0,36,0,--,中文 ZH,"PEC柔道教室	R5R6
-",R5R6,PEC柔道教,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,PEC柔道教室,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205074,PE 205074,PE2050,PE   體育室,高爾夫球,Golf,0,26,0,--,中文 ZH,--,--,--,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。前三堂在視聽教室，須自付保險及練習費。,--,--,--,--,O 接受 Allowed,--
 11110PE  205075,PE 205075,PE2050,PE   體育室,桌球進階,Ping pong (advance),0,30,0,--,中文 ZH,"Old Gym桌球場	R5R6
-",R5R6,Old Gym桌球,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,Old Gym桌球場,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205076,PE 205076,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	R5R6
-",R5R6,WT Rm.重訓,"張祐華	CHANG, YU-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,WT Rm.重訓室,"張祐華	CHANG, YU-HUA",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205077,PE 205077,PE2050,PE   體育室,國際標準舞,Ballroom Dancing,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	R5R6
-",R5R6,Dance Rm舞蹈教,曾建嘉	ZENG JIAN-JIA,需自備舞鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R5R6,Dance Rm舞蹈教室,曾建嘉	ZENG JIAN-JIA,需自備舞鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205078,PE 205078,PE2050,PE   體育室,籃球初學,Basketball(basic),0,36,0,--,中文 ZH,"Gym體育館2F	R5R6
 ",R5R6,Gym體育館,"謝文偉	HSIEH, WEN-WEI",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205079,PE 205079,PE2050,PE   體育室,慢壘,Softball,0,36,0,--,中文 ZH,"Stadium棒球場	R7R8
-",R7R8,Stadium棒球,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,Stadium棒球場,"徐志翔	HSU, CHIH-HSIANG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205080,PE 205080,PE2050,PE   體育室,游泳初學,Swimming(basic),0,36,0,--,中文 ZH,"SWIM Pl.游泳池	R7R8
-",R7R8,SWIM Pl.游泳,"施秉宏	SHIH, PING-HUNG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,SWIM Pl.游泳池,"施秉宏	SHIH, PING-HUNG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205081,PE 205081,PE2050,PE   體育室,網球初學,Tennis(basic),0,30,0,--,中文 ZH,"Stadium網球場	R7R8
-",R7R8,Stadium網球,"王汶琳	WANG, WEN-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,Stadium網球場,"王汶琳	WANG, WEN-LIN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205082,PE 205082,PE2050,PE   體育室,爵士舞,Jazz Dance,0,36,0,--,中文 ZH,"alum Gym校友PE館	R7R8
-",R7R8,alum Gym校友PE,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,alum Gym校友PE館,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205083,PE 205083,PE2050,PE   體育室,武術散打,Physical Training:：san da,0,36,0,--,中文 ZH,"PEC柔道教室	R7R8
-",R7R8,PEC柔道教,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,PEC柔道教室,"邱晨然	CHIU,CHEN-JAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205084,PE 205084,PE2050,PE   體育室,高爾夫球,Golf,0,26,0,--,中文 ZH,--,--,--,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。前三堂在視聽教室，須自付保險及練習費。,--,--,--,--,O 接受 Allowed,--
 11110PE  205085,PE 205085,PE2050,PE   體育室,桌球進階,Ping pong (advance),0,30,0,--,中文 ZH,"Old Gym桌球場	R7R8
-",R7R8,Old Gym桌球,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,Old Gym桌球場,"吳德成	WU, TE-CHENG",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205086,PE 205086,PE2050,PE   體育室,國際標準舞,Ballroom Dancing,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	R7R8
-",R7R8,Dance Rm舞蹈教,曾建嘉	ZENG JIAN-JIA,需自備舞鞋。患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",R7R8,Dance Rm舞蹈教室,曾建嘉	ZENG JIAN-JIA,需自備舞鞋。患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205087,PE 205087,PE2050,PE   體育室,排球,Volleyball,0,36,0,--,中文 ZH,"Gym體育館2F	R7R8
 ",R7R8,Gym體育館,"施惠方	SZU, HUI-FANG",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205088,PE 205088,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Old Gym桌球場	F1F2
-",F1F2,Old Gym桌球,"陳光紫	CHEN, KUANG-TZU",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F1F2,Old Gym桌球場,"陳光紫	CHEN, KUANG-TZU",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205089,PE 205089,PE2050,PE   體育室,籃球初學,Basketball(basic),0,36,0,--,中文 ZH,"Gym體育館2F	F1F2
 ",F1F2,Gym體育館,"陳虔倖	CHEN, CHIEN-HSIN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205090,PE 205090,PE2050,PE   體育室,水中有氧,Water aerobics,0,36,0,--,中文 ZH,"SWIM Pl.游泳池	F1F2
-",F1F2,SWIM Pl.游泳,"汪庭緣	WANG, TING-YUAN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F1F2,SWIM Pl.游泳池,"汪庭緣	WANG, TING-YUAN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205091,PE 205091,PE2050,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Old Gym桌球場	F3F4
-",F3F4,Old Gym桌球,"陳光紫	CHEN, KUANG-TZU",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F3F4,Old Gym桌球場,"陳光紫	CHEN, KUANG-TZU",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205092,PE 205092,PE2050,PE   體育室,籃球進階,Basketball(advance),0,36,0,--,中文 ZH,"Gym體育館2F	F3F4
 ",F3F4,Gym體育館,"陳虔倖	CHEN, CHIEN-HSIN",修本課者需有初學基礎。患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205093,PE 205093,PE2050,PE   體育室,水中有氧,Water aerobics,0,36,0,--,中文 ZH,"SWIM Pl.游泳池	F3F4
-",F3F4,SWIM Pl.游泳,"汪庭緣	WANG, TING-YUAN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F3F4,SWIM Pl.游泳池,"汪庭緣	WANG, TING-YUAN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205094,PE 205094,PE2050,PE   體育室,流行舞蹈,Pop Dance,0,36,0,--,中文 ZH,"alum Gym校友PE館	F3F4
-",F3F4,alum Gym校友PE,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F3F4,alum Gym校友PE館,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205095,PE 205095,PE2050,PE   體育室,重量訓練,Weight Training,0,36,0,--,中文 ZH,"WT Rm.重訓室	F3F4
-",F3F4,WT Rm.重訓,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F3F4,WT Rm.重訓室,"林琨瀚	LIN, KUN-HAN",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205096,PE 205096,PE2050,PE   體育室,螺旋有氧,Vortex Aerobics,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	F3F4
-",F3F4,Dance Rm舞蹈教,"施惠方	SZU, HUI-FANG",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F3F4,Dance Rm舞蹈教室,"施惠方	SZU, HUI-FANG",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205097,PE 205097,PE2050,PE   體育室,舞蹈即興創作,Dance Improvisation,0,36,0,--,中文 ZH,"Dance Rm舞蹈教室	F5F6
-",F5F6,Dance Rm舞蹈教,"王嬿婷	WANG, YEN-TING",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F5F6,Dance Rm舞蹈教室,"王嬿婷	WANG, YEN-TING",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205098,PE 205098,PE2050,PE   體育室,角力,Wrestling,0,36,0,--,中文 ZH,"PEC柔道教室	F5F6
-",F5F6,PEC柔道教,"劉振華	FIU, CHEN-HUA",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F5F6,PEC柔道教室,"劉振華	FIU, CHEN-HUA",患有重大傷病或特殊病史之同學請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205099,PE 205099,PE2050,PE   體育室,流行舞蹈,Pop Dance,0,36,0,--,中文 ZH,"alum Gym校友PE館	F5F6
-",F5F6,alum Gym校友PE,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",F5F6,alum Gym校友PE館,"黃靖琄	HUANG,CHING-CHUAN",須著乾淨室內運動鞋。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205101,PE 205101,PE2051,PE   體育室,羽球初學,Badminton,0,32,0,--,中文 ZH,"Nanda南大B101	M3M4
 ",M3M4,Nanda南大,"梁嘉文	LIANG,CHIA-WEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205102,PE 205102,PE2051,PE   體育室,桌球初學,Ping pong(basic),0,36,0,--,中文 ZH,"Nanda南大C101	M5M6
@@ -5072,7 +5072,7 @@ DELTA台達B05	W7
 ",W5W6,Nanda南大,"黎俊彥	LI, CHUN-YEN",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205112,PE 205112,PE2051,PE   體育室,高爾夫球,Golf,0,26,0,--,中文 ZH,--,--,--,"張嘉洲	CHANG, CHIA-CHOU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。前三堂在視聽教室，須自付保險及練習費。,--,--,--,--,O 接受 Allowed,--
 11110PE  205113,PE 205113,PE2051,PE   體育室,籃球初學,Basketball(basic),0,36,0,--,中文 ZH," 外籃球場	W7W8
-",W7W8, 外籃球,"李平鴻	LEE, PING-HUNG",於南大校區上課。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
+",W7W8, 外籃球場,"李平鴻	LEE, PING-HUNG",於南大校區上課。患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。,--,--,--,--,O 接受 Allowed,--
 11110PE  205114,PE 205114,PE2051,PE   體育室,高爾夫球,Golf,0,26,0,--,中文 ZH,--,--,--,"張嘉洲	CHANG, CHIA-CHOU",患有重大傷病或特殊病史之同學，請主動向授課老師說明以提供協助。前三堂在視聽教室，須自付保險及練習費。,--,--,--,--,O 接受 Allowed,--
 11110PE  205116,PE 205116,PE2051,PE   體育室,適應體育,Adapted Physical Education,0,0,0,--,中文 ZH,"Nanda南大B302	R5R6
 ",R5R6,Nanda南大,"梁嘉文	LIANG,CHIA-WEN",身體狀況不適合修習一般體育者，加簽請檢附醫生證明，第一堂課在視聽教室集合。本課程不能抵免大一體育。,--,--,--,--,O 接受 Allowed,--
@@ -5507,16 +5507,16 @@ DELTA台達B05	W7
 11110SL  600000,SL 600000,SL6000,SL   華文所,學術議題研討,Seminar,1,0,0,--,中文 ZH,--,--,--,--,採加簽方式選課，華文所研究生修習，1學分不計入畢業應修學分,--,排除華文所碩士班1年級,--,--,O 接受 Allowed,華文所111M必修
 11110SL  600100,SL 600100,SL6001,SL   華文所,論文研究,Thesis,0,--,0,--,中文 ZH,--,--,--,指導教授	,限碩二以上修習,--,排除華文所碩士班1年級,--,--,O 接受 Allowed,華文所111M必修
 11110SLS 500200,SLS 500200,SLS5002,SLS  先進光源科技學位學程,加速器光源之應用二,Introduction to Applications of Synchrotron Radiation II,3,--,0,--,中文 ZH,"NSRRC同步輻射	T5T6T7
-",T5T6T7,NSRRC同步輻,"徐嘉鴻	HSU, CHIA-HUNG
+",T5T6T7,NSRRC同步輻射,"徐嘉鴻	HSU, CHIA-HUNG
 魏德新	WEI, DER-HSIN","地點:同步輻射中心學術活動中心2F D251, 先修科目或先備能力:固態物理，本課程為16週課程",--,限碩士班博士班,--,--,O 接受 Allowed,先進光源學位學程111DA必修/先進光源學位學程111DB必修/先進光源學位學程111MA必修/先進光源學位學程111MB必修
 11110SLS 564300,SLS 564300,SLS5643,SLS  先進光源科技學位學程,加速器科技,Accelerator Technology,3,--,0,--,中文 ZH,"NSRRC同步輻射	F5F6F7
-",F5F6F7,NSRRC同步輻,"王兆恩	WANG, CHAOEN","教室：同步輻射L100演講廳,先修科目或先備能力:普通物理",--,--,--,--,O 接受 Allowed,先進光源學位學程111DA必修/先進光源學位學程111DB必修/先進光源學位學程111MB必修
+",F5F6F7,NSRRC同步輻射,"王兆恩	WANG, CHAOEN","教室：同步輻射L100演講廳,先修科目或先備能力:普通物理",--,--,--,--,O 接受 Allowed,先進光源學位學程111DA必修/先進光源學位學程111DB必修/先進光源學位學程111MB必修
 11110SNHC710000,SNHC 710000,SNHC7100,SNHC 社群人智國際學程,書報討論,Seminar,0,--,0,--,英文 EN,"SINICA中  研院	M6M7
-",M6M7,SINICA中  研,TIGP Program	,"Location:Taipei,Academia Sinica資訊所新館 N106, IIS,AS",--,限社群人智國際學程博士班,--,--,O 接受 Allowed,社群人智國際學程111D必修
+",M6M7,SINICA中  研院,TIGP Program	,"Location:Taipei,Academia Sinica資訊所新館 N106, IIS,AS",--,限社群人智國際學程博士班,--,--,O 接受 Allowed,社群人智國際學程111D必修
 11110SNHC731000,SNHC 731000,SNHC7310,SNHC 社群人智國際學程,自然語言與資訊檢索於社群網路之應用,Intro. to Natural Language Processing and Information Retrieval with Applications in Social Networks,3,--,0,--,英文 EN,"SINICA中  研院	R6R7R8
-",R6R7R8,SINICA中  研,TIGP Program	,"Location:Taipei,Academia Sinica中研院資訊所舊館107",--,"限資應所博士班,社群人智國際學程博士班",--,--,O 接受 Allowed,社群人智國際學程111D選修
+",R6R7R8,SINICA中  研院,TIGP Program	,"Location:Taipei,Academia Sinica中研院資訊所舊館107",--,"限資應所博士班,社群人智國際學程博士班",--,--,O 接受 Allowed,社群人智國際學程111D選修
 11110SNHC745000,SNHC 745000,SNHC7450,SNHC 社群人智國際學程,社群網路導論,Introduction to Social Networks,3,--,0,--,英文 EN,"SINICA中  研院	R2R3R4
-",R2R3R4,SINICA中  研,TIGP Program	,"Location:Taipei,Academia Sinica中研院資訊所舊館107",--,"限資應所博士班,社群人智國際學程博士班",--,--,O 接受 Allowed,社群人智國際學程111D選修
+",R2R3R4,SINICA中  研院,TIGP Program	,"Location:Taipei,Academia Sinica中研院資訊所舊館107",--,"限資應所博士班,社群人智國際學程博士班",--,--,O 接受 Allowed,社群人智國際學程111D選修
 11110SOC 515700,SOC 515700,SOC5157,SOC  社會所,政治社會學,Political Sociology,3,--,0,--,中文 ZH,"HSS人社C203	W6W7W8
 ",W6W7W8,HSS人社,"林祐聖	LIN, YU-SHENG",碩博選修。開放大四選修，支援HSS社會學學程。支援跨校合辦博士班專業領域：政治社會學。,--,排除大學部1年級2年級3年級,社會學(二)/社會學(一),--,O 接受 Allowed,人社院學士班108BA選修/人社院學士班108BB選修/社會所111D選修/社會所111M選修
 11110SOC 518800,SOC 518800,SOC5188,SOC  社會所,社區田野調查與地方誌書寫,Community Fieldwork and Ethnography Writing: Practicum,3,--,0,--,中文 ZH,"HSS人社C306	MaMbMc
@@ -5734,7 +5734,7 @@ DELTA台達B05	W7
 11110TEG 430200,TEG 430200,TEG4302,TEG  師培中心(一般課程),人智學與華德福教育,Anthroposophy and Waldorf Education,2,30,0,--,中文 ZH,"Nanda南大1319	W3W4
 ",W3W4,Nanda南大,聘任中	,--,--,--,--,(跨領域)華德福教育學分學程,O 接受 Allowed,--
 11110THC 100100,THC 100100,THC1001,THC  清華學院,社會創新與適切科技,Social Innovation and Appropriate Technology,3,60,0,--,中文 ZH,"D-Shi實齋講堂	FaFbFc
-",FaFbFc,D-Shi實齋講,"吳哲良	WU, CHE-LIANG
+",FaFbFc,D-Shi實齋講堂,"吳哲良	WU, CHE-LIANG
 錢克瑋	CHIEN, KER-WEI
 陳璽文	CHEN, HSI-WEN",(跨院系)創新創業學分學程,--,限大學部1年級2年級,--,(跨領域)創新創業學分學程,O 接受 Allowed,--
 11110THC 100200,THC 100200,THC1002,THC  清華學院,在地探索與田野實作：城市場域,Exploring Locality and Fieldwork: Urban field,2,20,0,社會 Social,中文 ZH,"EDU教  116	S3S4
@@ -5745,7 +5745,7 @@ DELTA台達B05	W7
 11110THC 101400,THC 101400,THC1014,THC  清華學院,校園永續生活創新實驗室：問題導向學習,Campus as a Living Lab：Problem-Based Learning Approach,2,15,0,--,中文 ZH,"EDU教  102	MaMbMc
 ",MaMbMc,EDU教  ,"陳俊銘	CHEN, CHUN-MING",--,--,--,--,--,O 接受 Allowed,--
 11110THC 101500,THC 101500,THC1015,THC  清華學院,永續設計與實作,Sustainable design and practice,2,15,0,--,中文 ZH,"D-Ren仁齋講堂	MaMb
-",MaMb,D-Ren仁齋講,"蔡協亨	TSAI, HSIEH-HENG
+",MaMb,D-Ren仁齋講堂,"蔡協亨	TSAI, HSIEH-HENG
 李佳玫	LI, CHIA-MEI","以一、二年級學生為優先,另1位教師為郭文祺老師",--,--,--,(跨領域)創新設計學分學程,O 接受 Allowed,--
 11110THC 101600,THC 101600,THC1016,THC  清華學院,創業車庫實習,NTHU Garage Startups Internship,2,0,0,--,中文 ZH,"LTM綠能208	S3S4
 ",S3S4,LTM綠能,"韓傳祥	HAN, CHUAN-HSIANG","限創業車庫當屆團隊修習課程,需加簽選課",--,--,--,--,O 接受 Allowed,--
@@ -5801,44 +5801,44 @@ DELTA台達B05	W7
 ",W7W8,NTHU Lab清實,"高瑞和	RUEY HO KAO
 周宏學	CHOU, HUNG-HSUEH",上課時間詳課程大綱,--,限醫學系,--,--,O 接受 Allowed,醫學系111X必修
 11110TIGP717100,TIGP 717100,TIGP7171,TIGP 國際研究生學程,教授專題演講,Faculty Presentation,1,--,0,--,英文 EN,"SINICA中  研院	T6T7F3F4
-",T6T7F3F4,SINICA中  研,CBMB Program	,"Location:Taipei, Academia Sinica",--,--,--,--,O 接受 Allowed,--
+",T6T7F3F4,SINICA中  研院,CBMB Program	,"Location:Taipei, Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP717600,TIGP 717600,TIGP7176,TIGP 國際研究生學程,分子與細胞生物學,Molecular and Cellular Biology,4,--,0,--,英文 EN,"SINICA中  研院	M3M4R5R6
-",M3M4R5R6,SINICA中  研,CBMB Program	,"Location:Taipei, Academia Sinica, Course arranged by the TIGP-MCB Program",--,--,--,--,O 接受 Allowed,--
+",M3M4R5R6,SINICA中  研院,CBMB Program	,"Location:Taipei, Academia Sinica, Course arranged by the TIGP-MCB Program",--,--,--,--,O 接受 Allowed,--
 11110TIGP717700,TIGP 717700,TIGP7177,TIGP 國際研究生學程,基礎神經科學概論,Introduction To Neuroscience,3,--,0,--,英文 EN,"SINICA中  研院	W5W6W7
-",W5W6W7,SINICA中  研,CBMB Program	,"Location:Taipei, Academia Sinica. Course arranged by the TIGP-INS Program",--,--,--,--,O 接受 Allowed,--
+",W5W6W7,SINICA中  研院,CBMB Program	,"Location:Taipei, Academia Sinica. Course arranged by the TIGP-INS Program",--,--,--,--,O 接受 Allowed,--
 11110TIGP717900,TIGP 717900,TIGP7179,TIGP 國際研究生學程,分子醫學,Molecular Medicine,3,--,0,--,英文 EN,"SINICA中  研院	T5T6T7
-",T5T6T7,SINICA中  研,CBMB Program	,"Location:Taipei, Academia Sinica. Course arranged by the TIGP-MM Program",--,--,--,--,O 接受 Allowed,--
+",T5T6T7,SINICA中  研院,CBMB Program	,"Location:Taipei, Academia Sinica. Course arranged by the TIGP-MM Program",--,--,--,--,O 接受 Allowed,--
 11110TIGP718100,TIGP 718100,TIGP7181,TIGP 國際研究生學程,書報討論,Seminar,1,--,0,--,英文 EN,"SINICA中  研院	W3W4
-",W3W4,SINICA中  研,CBMB Program	,"Location:Taipei, Academia Sinica",--,--,--,--,O 接受 Allowed,--
+",W3W4,SINICA中  研院,CBMB Program	,"Location:Taipei, Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP718200,TIGP 718200,TIGP7182,TIGP 國際研究生學程,專題演講,Colloquium,1,--,0,--,英文 EN,--,--,--,CBMB Program	,"Location:Taipei, Academia Sinica.",--,--,--,--,O 接受 Allowed,--
 11110TIGP718300,TIGP 718300,TIGP7183,TIGP 國際研究生學程,研究技術與實作：NMR spectroscopy,Research skill and practice：NMR spectroscopy,2,--,0,--,英文 EN,--,--,--,CBMB Program	,"Location:Taipei, Academia Sinica, need confirmation from the coordinator before taking the course",--,--,--,--,O 接受 Allowed,--
 11110TIGP719100,TIGP 719100,TIGP7191,TIGP 國際研究生學程,初級中文二,Elementary Chinese II,0,--,0,--,英文 EN,--,--,--,CBMB Program	,"Location:Taipei, Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP719600,TIGP 719600,TIGP7196,TIGP 國際研究生學程,高等化學生物學專論一,Discussion in Advanced Chemical Biology I,4,--,0,--,英文 EN,--,--,--,CBMB Program	,Non-CBMB stu. pls confirm with the coordinator before taking the course.,--,--,--,--,O 接受 Allowed,--
 11110TIGP719900,TIGP 719900,TIGP7199,TIGP 國際研究生學程,初級中文一,Elementary Chinese I,0,--,0,--,英文 EN,--,--,--,CBMB Program	,"Location:Taipei, Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP720100,TIGP 720100,TIGP7201,TIGP 國際研究生學程,分子科學與技術專題研究,Special Studies on Topics about Molecular Science and Technology,3,--,0,--,英文 EN,"SINICA中  研院	SnS5S6
-",SnS5S6,SINICA中  研,MST Program	,"實際上課時間依任課教師規定,Location:R311,IAMS,Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
+",SnS5S6,SINICA中  研院,MST Program	,"實際上課時間依任課教師規定,Location:R311,IAMS,Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP722300,TIGP 722300,TIGP7223,TIGP 國際研究生學程,現代實驗技術--物理,Modern Experimental Technique--Physics,2,--,0,--,英文 EN,"SINICA中  研院	F6F7
-",F6F7,SINICA中  研,MST Program	,"Location:R311,IAMS,Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
+",F6F7,SINICA中  研院,MST Program	,"Location:R311,IAMS,Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP723500,TIGP 723500,TIGP7235,TIGP 國際研究生學程,量子光學,Quantum Optics,3,--,0,--,英文 EN,--,--,--,MST Program	,"Location:R304,CCMS & New Physics Building, NTU",--,--,--,--,O 接受 Allowed,--
 11110TIGP723600,TIGP 723600,TIGP7236,TIGP 國際研究生學程,不可逆熱力學及其應用,Irreversible Thermodynamics and its Application in spin caloritronics,3,--,0,--,英文 EN,"SINICA中  研院	F2F3F4
-",F2F3F4,SINICA中  研,MST Program	,"Location:R311,IAMS,Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
+",F2F3F4,SINICA中  研院,MST Program	,"Location:R311,IAMS,Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP723700,TIGP 723700,TIGP7237,TIGP 國際研究生學程,永續化學科技導論一,Introduction to Sustainable Chemical Science and Technology I,3,--,0,--,英文 EN,"SINICA中  研院	W2W3W4
-",W2W3W4,SINICA中  研,MST Program	,"Location:B105, IoC, AS Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
+",W2W3W4,SINICA中  研院,MST Program	,"Location:B105, IoC, AS Taipei,Academia Sinica",--,--,--,--,O 接受 Allowed,--
 11110TIGP726400,TIGP 726400,TIGP7264,TIGP 國際研究生學程,分子科學與技術書報討論暨演練,Seminar Presentation on Topics about Molecular Science and Technology,1,--,0,--,英文 EN,"SINICA中  研院	S2S3
-",S2S3,SINICA中  研,MST Program	,"Location: 原分所R311,Taipei,Academia Sinica (實際上課時間依任課教師規定)",--,--,--,--,O 接受 Allowed,--
+",S2S3,SINICA中  研院,MST Program	,"Location: 原分所R311,Taipei,Academia Sinica (實際上課時間依任課教師規定)",--,--,--,--,O 接受 Allowed,--
 11110TIGP727100,TIGP 727100,TIGP7271,TIGP 國際研究生學程,高等物理化學一,Advanced Physical Chemistry (I),3,--,0,--,英文 EN,--,--,--,MST Program	,"location:Room 121, Chemistry Building, NTU University",--,--,--,--,O 接受 Allowed,--
 11110TIGP730100,TIGP 730100,TIGP7301,TIGP 國際研究生學程,基礎分子生物學一,Basic Molecular Biology for Bioinformatics (I),3,--,0,--,英文 EN,"SINICA中  研院	T2T3T4
-",T2T3T4,SINICA中  研,BP Program	,"Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
+",T2T3T4,SINICA中  研院,BP Program	,"Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP730300,TIGP 730300,TIGP7303,TIGP 國際研究生學程,書報討論,Seminar,1,--,0,--,英文 EN,"SINICA中  研院	R7R8
-",R7R8,SINICA中  研,BP Program	,"15:30-17:00 Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
+",R7R8,SINICA中  研院,BP Program	,"15:30-17:00 Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP730400,TIGP 730400,TIGP7304,TIGP 國際研究生學程,研究室見習,Lab Rotation,0,--,0,--,英文 EN,--,--,--,BP Program	,"Once a week, Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP730500,TIGP 730500,TIGP7305,TIGP 國際研究生學程,閱讀指導,Student Presentation,1,--,0,--,英文 EN,--,--,--,BP Program	,"14:00-15:30 Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP730800,TIGP 730800,TIGP7308,TIGP 國際研究生學程,生物計算學,Biological Computing,3,--,0,--,英文 EN,"SINICA中  研院	F5F6F7F8
-",F5F6F7F8,SINICA中  研,BP Program	,"14:00-17:00, Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
+",F5F6F7F8,SINICA中  研院,BP Program	,"14:00-17:00, Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP731000,TIGP 731000,TIGP7310,TIGP 國際研究生學程,程式語言,Programming Languages,2,--,0,--,英文 EN,"SINICA中  研院	F3F4
-",F3F4,SINICA中  研,BP Program	,"(除TIGP學生外，只限外籍生修課) Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
+",F3F4,SINICA中  研院,BP Program	,"(除TIGP學生外，只限外籍生修課) Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP731100,TIGP 731100,TIGP7311,TIGP 國際研究生學程,基礎生物資訊統計學,Fundamental Statistical Methods in Bioinformatics,3,--,0,--,英文 EN,"SINICA中  研院	R2R3R4
-",R2R3R4,SINICA中  研,BP Program	,"Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
+",R2R3R4,SINICA中  研院,BP Program	,"Location: 資訊所,Taipei,Academia Sinica",--,限博士班,--,--,O 接受 Allowed,--
 11110TIGP740101,TIGP 740101,TIGP7401,TIGP 國際研究生學程,奈米科技導論Ａ,Introduction to Nanotechnology Ａ,3,--,0,--,英文 EN,"ESS工科 302	F5F6F7
 ",F5F6F7,ESS工科 ,NST Program	,NST學程,--,排除大學部,--,--,O 接受 Allowed,--
 11110TIGP740102,TIGP 740102,TIGP7401,TIGP 國際研究生學程,奈米科技導論Ｂ　,Introduction to Nanotechnology Ｂ,3,--,0,--,英文 EN,--,--,--,NST Program	,"NST學程, 上課地點: 跨領域大樓 5B05會議室",--,排除大學部,--,--,O 接受 Allowed,--
