@@ -32,7 +32,7 @@ GPArecord_url = 'https://nthucourse.com/gpa-record/'
 
 
 # # course_curriculum_downloader(data_folder_path, global_semester, curriculum_semester_option, curriculum_url, selenium_driver_path)
-# course_curriculum_processer(data_folder_path, global_semester)
+course_curriculum_processer(data_folder_path, global_semester)
 
 # # course_data_downloader(data_folder_path, global_semester, course_data_url)
 course_data_processer(data_folder_path, global_semester)
@@ -41,7 +41,7 @@ selection_system_on = False
 course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url)
 
 
-grap_GPA_semester_name = '109上(2020-Fall)'
-grap_GPA_semester_code = '109_10'
+# grap_GPA_semester_name = '109上(2020-Fall)'
+# grap_GPA_semester_code = '109_10'
 # GPA_downloader(selenium_driver_path, NTHU_homepage_url, student_ID, password, data_folder_path, grap_GPA_semester_name, grap_GPA_semester_code )
 # GPA_processer(data_folder_path, grap_GPA_semester_code)
