@@ -39,12 +39,12 @@ GPArecord_url = 'https://nthucourse.com/gpa-record/'
 # # course_data_downloader(data_folder_path, global_semester, course_data_url)
 # course_data_processer(data_folder_path, global_semester)
 
-activity_url = refresh_syllabus_url(curriculum_semester_option, curriculum_url, selenium_driver_path)
+syllabus_activity_url = refresh_syllabus_url(curriculum_semester_option, curriculum_url, selenium_driver_path)
 
 
 
 selection_system_on = False
-# course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url)
+course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url, syllabus_activity_url)
 
 
 

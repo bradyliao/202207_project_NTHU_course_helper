@@ -55,3 +55,8 @@ def tablepress_link_code(display_str, url, target_str):
     code = '<a href=\"' + link + '\" rel=\"noopener\" target=\"_blank\">' + display_str + '</a>'
     
     return code
+
+
+def hyperlink_code(display_str, link):
+    code = '<a href=\"' + link + '\" rel=\"noopener\" target=\"_blank\">' + display_str + '</a>'
+    return code

@@ -1,11 +1,11 @@
 import pandas as pd
 import re
 
-from module_utility import tablepress_link_code, to_reference
+from module_utility import tablepress_link_code, to_reference, hyperlink_code
 
 
 
-def course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url): 
+def course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url, syllabus_activity_url): 
     
     course_data_processed_df = pd.read_csv(data_folder_path + global_semester + '_course_data_processed.csv')
     course_corriculum_processed_df = pd.read_csv(data_folder_path + global_semester + '_course_corriculum_processed.csv')
@@ -190,7 +190,8 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
         display_instructor = display_instructor[:-1]
         
         
-        display_info = '<strong>學分數 Credit unit : </strong>' + str(credit_unit) + '\n' \
+        display_info = '<strong>' + hyperlink_code('課綱 Syllabus', syllabus_activity_url+course_ID_full_orig.replace(' ', '%20')) + '</strong>' + '\n' \
+                     + '<strong>學分數 Credit unit : </strong>' + str(credit_unit) + '\n' \
                      + '<strong>授課語言 Language : </strong>' + language + '\n' \
                      + '<strong>教師 Instructor : </strong>\n' + display_instructor  + '\n' \
                      + '<strong>教室 Room & 時間 Time : </strong>\n' + room_and_time_orig
