@@ -12,10 +12,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
 
-from module_utility import to_df
 from module_captcha import captcha_file
 
-def course_curriculum_downloader(data_folder_path, global_semester, curriculum_semester_option, curriculum_url, selenium_driver_path):
+def refresh_syllabus_url(curriculum_semester_option, curriculum_url, selenium_driver_path):
     
     # Selenium
     options = Options()
@@ -23,26 +22,10 @@ def course_curriculum_downloader(data_folder_path, global_semester, curriculum_s
     options.add_experimental_option('excludeSwitches', ['enable-logging']) # shut up error code triggered by chrome: "Failed to read descriptor from node connection: A device attached to the system is not functioning." 
     s = Service(selenium_driver_path)
     
+
     
     
-    # open chrome
-    driver = webdriver.Chrome(service= s, options= options)
-    # to url
-    driver.get(curriculum_url)
-    # select semester
-    Select(driver.find_element(by=By.ID, value="YS_id")).select_by_visible_text(curriculum_semester_option)
-    # click first option ( 僅列出所選開課代號之科目(only courses offered by this department) )
-    driver.find_element(by=By.NAME, value="cond").click()
-    # get drop down menu length
-    dropdown_list_len = len( Select(driver.find_element(by=By.NAME, value="cou_code")).options )
-    # close the tab
-    driver.close()
-    
-    course_curriculum_df = pd.DataFrame()
-    
-    
-    i = 1
-    while i < dropdown_list_len:
+    while True:
         # open chrome
         driver = webdriver.Chrome(service= s, options= options)
         # to url
@@ -52,7 +35,7 @@ def course_curriculum_downloader(data_folder_path, global_semester, curriculum_s
         # click first option ( 僅列出所選開課代號之科目(only courses offered by this department) )
         driver.find_element(by=By.NAME, value="cond").click()
         # choose i th option in the drop down menu
-        Select(driver.find_element(by=By.NAME, value="cou_code")).select_by_index(i)
+        Select(driver.find_element(by=By.NAME, value="cou_code")).select_by_visible_text('CS 　資工系 Computer Science')
         
         
         
@@ -92,28 +75,19 @@ def course_curriculum_downloader(data_folder_path, global_semester, curriculum_s
         
         
         
-
-        # load data to dataframe
-        course_curriculum_df_incoming = to_df(driver=driver)
         
-        # combine current & incoming dataframe
-        course_curriculum_df = pd.concat([course_curriculum_df, course_curriculum_df_incoming], ignore_index=True, sort=False)
+        driver.find_element(by=By.NAME, value="Submit6").click()
+        
+        sleep(3)
+        
+        driver.switch_to.window(driver.window_handles[1])
+        
+        url = driver.current_url
         
         driver.close()
         
-        i += 1
+        break
     
     driver.quit
     
-    
-    
-    # drop 必選修說明 row
-    row_to_drop = []
-    for row in range(0, len(course_curriculum_df)):
-        if course_curriculum_df.loc[row][8]  == None:
-            row_to_drop.append(row)
-    course_curriculum_df = course_curriculum_df.drop(index=row_to_drop)
-    
-    
-    
-    course_curriculum_df.to_csv(data_folder_path + global_semester + '_course_corriculum_downloaded.csv', index = False)
+    return url.replace('11110CS%20%20135501', '')

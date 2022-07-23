@@ -6,6 +6,8 @@ from module_course_curriculum_processer import course_curriculum_processer
 from module_course_data_downloader import course_data_downloader
 from module_course_data_processer import course_data_processer
 
+from module_refresh_syllabus_url import refresh_syllabus_url
+
 from module_course_merge import course_merge
 
 from module_GPA_downloader import GPA_downloader
@@ -32,13 +34,23 @@ GPArecord_url = 'https://nthucourse.com/gpa-record/'
 
 
 # # course_curriculum_downloader(data_folder_path, global_semester, curriculum_semester_option, curriculum_url, selenium_driver_path)
-course_curriculum_processer(data_folder_path, global_semester)
+# course_curriculum_processer(data_folder_path, global_semester)
 
 # # course_data_downloader(data_folder_path, global_semester, course_data_url)
-course_data_processer(data_folder_path, global_semester)
+# course_data_processer(data_folder_path, global_semester)
+
+activity_url = refresh_syllabus_url(curriculum_semester_option, curriculum_url, selenium_driver_path)
+
+
 
 selection_system_on = False
-course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url)
+# course_merge(data_folder_path, global_semester, selection_system_on, GPArecord_url)
+
+
+
+
+
+
 
 
 # grap_GPA_semester_name = '109上(2020-Fall)'

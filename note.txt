@@ -28,13 +28,63 @@ https://docs.bitnami.com/general/apps/wordpress-pro/administration/generate-conf
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-m1 macbook air 8GB  ->  26s
-iPad air 4			->	22s
+https://cloud.google.com/architecture/chrome-desktop-remote-on-compute-engine#cinnamon
+remote desktop
+bradyliao@gapp.nthu.edu.tw
+pin: 846930
+
+
+tesseract
+https://techviewleo.com/install-and-use-tesseract-ocr-on-debian/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
+device					system		CPU			RAM		browser		time
+
+						Windows		Ryzen3600	16		Chrome		17			andy
+						
+						Windows		i7-8550U	12		Edge		22			me
+														Chrome		22
+
+						Windows		i7-10750H	16		Chrome		22			章魚
+					
+						Windows		i7-8750H	8					27			shevy
+					
+						Windows		i7-3770		8		Chrome		29			國際事務 Han-Hsin Cheng
+
+						Windows		i5-2310		8		Chrome		34			周子琳
+
+						Windows		i5-10210U	8		Chrome		35			藍綠菌
 
 
+
+MacBook Air (1)			MacOS		M1			8		Chrome		11			me
+														Edge		13
+														Brave		16
+														Safari		24
+														
+MacBook Air (2)			MacOS		M1			8		Chrome		11			沐報
+														Safari		23
+
+MacBook Pro 2020 13'	MacOS 12.4	i5-4core	16		Chrome		26			沐報
+														Safari		40
+
+MacBook Pro 2015 15'	MacOS 10.15 i7-4core	16		Safari		45			蘇俊											
+														
+
+
+
+iPad Pro				iPadOS		M1			16		Safari		18			蘇俊
+														Chrome		17														
+														
+iPad Air 4				iPadOS		A14			4		Safari		22			me
+														Chrome		24
+
+iPad Pro				iPadOS 15.5						Safari		31			沐報
+
+iPad 6					iPadOS							Safari		47			mom
 
 
 
@@ -305,4 +355,5 @@ https://nthucourse.com
 主表個在右上角的111上
 如果可以，幫我計時點下去到那些篩選項目跑出來的時間，粗估落在30秒左右
 我想知道幾秒，然後幫我拍你電腦的規格（設定->系統->關於）（關於在最下面）
-主要是想知道處理器、記憶體喇
+然後跟我說你用的瀏覽器 可以的話幫我測你有的各種瀏覽器
+主要是想知道處理器、記憶體、系統、瀏覽器喇
