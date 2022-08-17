@@ -1,0 +1,445 @@
+http://PublicIpAddress/wp-login.php
+
+
+wordpress
+change login page url
+https://blog.hungwin.com.tw/wordpress-wps-hide-login/
+https://nthucourse.com/my-portal
+
+
+
+Google cloud
+35.189.176.173
+user
+EGKfpWaB9FtB
+
+http://35.189.176.173/wp-login.php
+http://35.189.176.173/wp-admin/
+http://35.189.176.173
+http://35.189.176.173/111-上/
+
+ssh -i .ssh/gcbitnami bitnami@35.189.176.173
+(key in .ssh)
+
+sftp -i .ssh/gcbitnami bitnami@35.189.176.173
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+SSL
+https://sammy197.tw/4583/
+https://docs.bitnami.com/general/apps/wordpress-pro/administration/generate-configure-certificate-letsencrypt/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://cloud.google.com/architecture/chrome-desktop-remote-on-compute-engine#cinnamon
+remote desktop
+bradyliao@gapp.nthu.edu.tw
+pin: 846930
+
+bitnami
+EGKfpWaB9FtB
+
+ssh key: bitnami Brady7589
+
+
+curriculum data update on windows: 13:20 (mm:ss)
+
+
+
+
+tesseract
+https://techviewleo.com/install-and-use-tesseract-ocr-on-debian/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+device					system		CPU			RAM		browser		time
+
+						Windows		Ryzen3600	16		Chrome		17			andy
+						
+						Windows		i7-8550U	12		Edge		22			me
+														Chrome		22
+
+						Windows		i7-10750H	16		Chrome		22			章魚
+						
+						Windows		i5-8265U	8		Chrome		24			王伃婕
+					
+						Windows		i7-8750H	8					27			shevy
+					
+						Windows		i7-3770		8		Chrome		29			國際事務 Han-Hsin Cheng
+
+						Windows		i5-2310		8		Chrome		34			周子琳
+
+						Windows		i5-10210U	8		Chrome		35			藍綠菌
+
+
+
+MacBook Air (1)			MacOS		M1			8		Chrome		11			me
+														Edge		13
+														Brave		16
+														Safari		24
+														
+MacBook Air (2)			MacOS		M1			8		Chrome		11			沐報
+														Safari		23
+
+MacBook Pro 2020 13'	MacOS 12.4	i5-4core	16		Chrome		26			沐報
+														Safari		40
+
+MacBook Pro 2015 15'	MacOS 10.15 i7-4core	16		Safari		45			蘇俊											
+														
+
+
+
+iPad Pro				iPadOS		M1			16		Safari		18			蘇俊
+														Chrome		17														
+														
+iPad Air 4				iPadOS		A14			4		Safari		22			me
+														Chrome		24
+
+iPad Pro				iPadOS 15.5						Safari		31			沐報
+
+iPad 6					iPadOS							Safari		47			mom
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+GPA
+
+[table_filter id=2 datatables_columnfilterwidgets=true datatables_columnfilterwidgets_exclude_columns=1,2,3,4,5,6,7,9 /]
+
+
+.tablepress-id-2 .column-2 {
+	width: 120px;
+}
+
+.tablepress-id-2 .column-3 {
+	width: 300px;
+}
+
+.tablepress-id-2 .column-4 {
+	width: 220px;
+}
+
+.tablepress-id-2 .column-8,
+.column-9 {
+	display: none;
+}
+
+.tablepress-id-2 tbody td {
+/*  font-family: Tahoma; */
+	font-size: 14px; /*  font-weight: bold; */
+	color: #000000;
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+課程資訊
+
+// starts from 1
+[table_filter id=11110 datatables_columnfilterwidgets=true datatables_columnfilterwidgets_exclude_columns=1,2,3,4,7 /]
+
+// starts from 0
+"columnDefs": [ { "orderable": false, "targets": [ 1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95] } ]
+
+
+.tablepress-id-11110 .column-1 {
+	width: 170px;
+}
+
+.tablepress-id-11110 .column-2 {
+	width: 230px;
+}
+
+.tablepress-id-11110 .column-3 {
+	width: 270px;
+}
+
+// starts from 1
+.tablepress-id-11110 .column-5,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12,
+.column-13,
+.column-14,
+.column-15,
+.column-16,
+.column-17,
+.column-18,
+.column-19,
+.column-20,
+.column-21,
+.column-22,
+.column-23,
+.column-24,
+.column-25,
+.column-26,
+.column-27,
+.column-28,
+.column-29,
+.column-30,
+.column-31,
+.column-32,
+.column-33,
+.column-34,
+.column-35,
+.column-36,
+.column-37,
+.column-38,
+.column-39,
+.column-40,
+.column-41,
+.column-42,
+.column-43,
+.column-44,
+.column-45,
+.column-46,
+.column-47,
+.column-48,
+.column-49,
+.column-50,
+.column-51,
+.column-52,
+.column-53,
+.column-54,
+.column-55,
+.column-56,
+.column-57,
+.column-58,
+.column-59,
+.column-60,
+.column-61,
+.column-62,
+.column-63,
+.column-64,
+.column-65,
+.column-66,
+.column-67,
+.column-68,
+.column-69,
+.column-70,
+.column-71,
+.column-72,
+.column-73,
+.column-74,
+.column-75,
+.column-76,
+.column-77,
+.column-78,
+.column-79,
+.column-80,
+.column-81,
+.column-82,
+.column-83,
+.column-84,
+.column-85,
+.column-86,
+.column-87,
+.column-88,
+.column-89,
+.column-90,
+.column-91,
+.column-92,
+.column-93,
+.column-94,
+.column-95,
+.column-96 {
+	display: none;
+}
+
+.tablepress-id-11110 tbody td {
+/*  font-family: Tahoma; */
+	font-size: 14px; /*  font-weight: bold; */
+	color: #000000;
+}
+
+]
+.tablepress-id-11110 {
+	white-space: nowrap;
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+各位，我需要你們的幫忙！
+我寫一個學校課程資訊的網站，需要不同科系的人幫我用用看
+
+課程資訊的頁面 現在叫test
+幫我看看你平常找課的時候會篩選的東西 或排序的
+現在選上機率還沒有因為選課系統沒開 報表看不到 主要是想給通識課、體育課用喇
+幫我看看有什麼地方怪怪的 不順眼的 之類的
+或是你們系的課 看一下顯示的是不是正常的（我有稍微對一下資工系的 但學校有快三千堂課 我對不完 就加減看看
+另外南大校區的建築編號我不太確定是怎樣 沒去過 有人知道要怎麼看嗎？
+
+或是排版的問題 太多資訊了 有哪些是不重要的你不會看的（備註那整欄我其實都想拿掉）
+想知道有多少人需要 所以我還是先放上去
+
+現在網址是ip的數字 因為我還沒去申請常見的那種網址
+會顯示不安全是正常的 我也還沒去申請另外一個憑證
+盡量用電腦看 他可能會吃點記憶體 沒辦法太多課了
+剛開網頁可能會要時間跑 超過10秒應該就算不正常
+但開完怎麼搜尋篩選排序應該都很快
+
+點課號或老師的連結，會連到 GPA Record的頁面 自動叫出歷史成績
+當然 GPA Record 也可以自己搜尋
+
+然後先不要傳給其他人 可憐的伺服器記憶體只有2GB 我怕它爆掉 之後都確定了再說
+
+
+
+
+
+
+
+
+回饋！！！
+
+
+
+廖宏淇
+
+畫面挺簡潔易懂的 filter的話我覺得算蠻完整 雖然課號搜尋可能會最少用到 不過的確還是有少數時候會需要 系所filter 的話我覺得能夠選多個系的這項設計很讚 不過我覺得可能可以下面稍微附註要刪掉系所的話可以點選系所 因為我剛試了一段時間才發現
+
+然後我覺得備註需要欸 有些課程限制幾年級或什麼系的是很重要的資訊
+
+然後我點選課號後看歷史給分我覺得挺讚 不過我覺得可以最愛加個按鈕讓他可以叫出課程大綱
+
+哦哦然後我覺得點老師名稱跳出他之前給分這點我覺得也很加分
+
+
+
+黃名瑄
+
+我覺得還不錯欸只是我有個問題 就是功能跟學校的差不多那為什麼跑起來那麼卡但學校的不會哈哈 我是不是問了很笨的問題啊
+然後我覺得比較不方便的就是選了系所後開課代號只有代號沒有講課名就不太方便
+
+
+
+章魚
+
+我稍微是用了一下以下是我認為使用上的問題：
+1.資訊和備註裡的內容太多了，畢竟做成表格，但是內容卻還是寫的那麼多，有點難閱讀。我覺得可以將選課時第一會考慮的事情分隔並簡單描述，像是"人限、剩餘名額、學分數、上課時間、上課地點、授課老師、是否加簽"，剩下的資訊如果做跳出視窗讓有興趣的人再點開閱讀可能會使畫面不會這麼難閱讀。
+2.選單的部分是多選有點不直觀XD下拉選單比較多用在單選(?)所以剛開始有一點困惑
+3.課程選單課號太細@@平常頂多只記到第一位數(也就是年級的部分XD)所以與其用選單找課，不如直接選完系所就往下找還比較好找。
+4.然後GPA RECORD也有3.的相同問題，所以索性不找了QQ但直接點課號和老師到是很方便！
+
+不過選單我還蠻喜歡"時間、語言、加簽"這些條件！尤其時間！！因為常常要塞課，但又找不到對應空堂的時間真的很累，時間用在通是真的好讚！
+
+總之大概這樣！課程隨便看了一下感覺沒有大問題..吧XD
+希望有幫到你><
+是說是要做什麼的啊???要開放給大家用嗎!!!!
+是的話我要用！最適合給我們這種不喜歡爬文的大懶人了XD
+
+
+
+
+王伃婕
+
+我覺得跳下一頁的時候可以讓他跳回去最上方~或是上面也增加next page的icon
+欸我覺得這個很讚欸 可以同時把你要的篩選條件一起篩
+我們系的課感覺都正常
+然後我覺得中間GPA record的地方可以不用這麼大~
+
+
+
+第二波測試
+有網址 也不會顯示不安全ㄌ 甚至還有主頁說明
+換了伺服器，效能比較好也在台灣，但整個資料量變超大，載入時間變很久
+https://nthucourse.com
+可以幫我看看說明，看有哪邊講的是你看不懂的，或是可以講更好的地方
+主表個在右上角的111上
+如果可以，幫我計時點下去到那些篩選項目跑出來的時間，粗估落在30秒左右
+我想知道幾秒，然後幫我拍你電腦的規格（設定->系統->關於）（關於在最下面）
+
+
+第二波測試
+我寫了一個課程資訊的網頁（請先不要傳給別人
+現在有網址 也不會顯示不安全ㄌ 甚至還有主頁說明
+換了伺服器，效能比較好也在台灣，但整個資料量變超大，載入時間變很久
+https://nthucourse.com
+用電腦或平板開 手機版我目前沒打算做
+可以幫我看看說明，看有哪邊講的是你看不懂的，或是可以講更好的地方
+主表個在右上角的111上
+如果可以，幫我計時點下去到那些篩選項目跑出來的時間，粗估落在30秒左右
+我想知道幾秒，然後幫我拍你電腦的規格（設定->系統->關於）（關於在最下面）
+然後跟我說你用的瀏覽器 可以的話幫我測你有的各種瀏覽器
+主要是想知道處理器、記憶體、系統、瀏覽器喇
+
+
+
+https://nthucourse.com
+用電腦或平板開 手機版我目前沒打算做
+可以幫我看看說明，看有哪邊講的是你看不懂的，或是可以講更好的地方
+主表格在右上角的111上
+如果可以，幫我計時點下去到那些篩選項目跑出來的時間，粗估落在30秒左右
+我想知道幾秒，然後幫我拍你電腦的規格（設定->系統->關於）（關於在最下面）
+然後跟我說你用的瀏覽器 可以的話幫我測你有的各種瀏覽器
+主要是想知道處理器、記憶體、系統、瀏覽器喇
+
+
+清大的各位！
+我做了一個清大課程資訊的網站，想請各科系的人測試！
+請用電腦或平板，我暫時不打算做手機版
+主要是針對學校的課程篩選、報表、GPA查詢功能做優化
+幫助最大的應該是通識課、體育課、同時需要選多個系所課程的同學
+目前選課系統沒有開放，報表看不到，待亂數、選上機率無法顯示
+主表格在右上角的「111上」
+整個載入目前需要15~45秒的時間，視電腦規格而定
+另外也想測試伺服器的效能夠不夠，如果有載入超過45秒的情況也請跟我說！
+歡迎大家提供意見！尤其是各個科系選課的顧慮！
+https://nthucourse.com
+
+
+
+王伃婕
+我覺得很方便欸 感覺主要是時間篩選的時候要記得反向篩就滿好用的 一開始我想嘗試正向篩就有點不知道怎麼用
+其他感覺沒啥問題 要再增加方便性的話應該就是我上次說的可以再增加上一頁下一頁的功能
+但他是不是比如說 我M1選O的話就表示我其他時間通通不行選只有M1那個時間可以 想要同時篩好幾個時段就只能反向篩
+那有些是單堂的課會不會比較不好篩
+我記得我好像看過生科有
+還有有些通識課是沒有在課表上的
+因為是非同步線上課程所以他時間不在一到六裡面
+正向篩他就是一定要一模一樣才可以的樣子
+
+
+
+
+
+
+改善的東西
+
+說明：
+如果你是想找課塞，建議把你不行的時間選 X，有空的時間不要選
+
+
+
+
+
+111上
+課程年級
+補：“請等待篩選項目出現！將不可以的時間選 "X" 有時候比較好用歐！”
+上一頁下一頁按鈕 加放右上角
+
+
+
+---------- done ------------
+
+執行log
+
+main.py
+每次開啟先執行一次需要的
+
+wp
+表格橫向瀏覽
