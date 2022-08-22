@@ -121,6 +121,7 @@ def course_curriculum_downloader(data_folder_path, global_semester, curriculum_s
     
     
     course_curriculum_df.to_csv(data_folder_path + global_semester + '_course_corriculum_downloaded.csv', index = False)
+    course_curriculum_df.to_csv(data_folder_path + 'log/' + datetime.datetime.now().strftime("%Y%m%d_%H%M%S_") + global_semester + '_course_corriculum_downloaded.csv', index = False)
 
     
     

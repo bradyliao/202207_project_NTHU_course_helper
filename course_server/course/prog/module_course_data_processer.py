@@ -223,7 +223,7 @@ def course_data_processer(data_folder_path, global_semester):
         
         
         # --------------------------------------------------------------------------------------- (col. 4) limit
-        limit = '--' if ( pd.isna(course_data_df.iloc[row,4]) ) else int(course_data_df.iloc[row,4])
+        limit = '∞' if ( pd.isna(course_data_df.iloc[row,4]) ) else int(course_data_df.iloc[row,4])
         
         
         # --------------------------------------------------------------------------------------- (col. 5) new_only
@@ -353,6 +353,7 @@ def course_data_processer(data_folder_path, global_semester):
     course_data_processed_df.columns = ['course_ID_full_orig', 'course_ID', 'course_num', 'department', 'course_title_zh', 'course_title_eng', 'credit_unit', 'limit', 'new_only', 'gen_cat', 'language', 'room_and_time_orig', 'time', 'building', 'instructor', 'memo', 'prerequisite', 'limitation', 'speciality', 'program', 'extra_enrollment', 'required_or_elective']
     
     course_data_processed_df.to_csv(data_folder_path + global_semester + '_course_data_processed.csv', index=False)
+    course_data_processed_df.to_csv(data_folder_path + 'log/' + datetime.datetime.now().strftime("%Y%m%d_%H%M%S_") + global_semester + '_course_data_processed.csv', index=False)
     
     
     

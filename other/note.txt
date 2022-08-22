@@ -58,6 +58,8 @@ https://techviewleo.com/install-and-use-tesseract-ocr-on-debian/
 
 device					system		CPU			RAM		browser		time
 
+						Windows 11	Ryzen5600	32		Chrome		14			楊子緣 實驗室
+
 						Windows		Ryzen3600	16		Chrome		17			andy
 						
 						Windows		i7-8550U	12		Edge		22			me
@@ -145,10 +147,13 @@ GPA
 課程資訊
 
 // starts from 1
-[table_filter id=11110 datatables_columnfilterwidgets=true datatables_columnfilterwidgets_exclude_columns=1,2,3,4,7 /]
+[table_filter id=11110 datatables_columnfilterwidgets=true datatables_columnfilterwidgets_exclude_columns=1,2,3,4,7 cache_table_output=false /]
+// https://wordpress.org/support/topic/changes-made-in-tablepress-will-not-show-up-on-website/
+// https://wordpress.org/support/topic/turn-off-tablepress-caching/
+
 
 // starts from 0
-"columnDefs": [ { "orderable": false, "targets": [ 1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95] } ]
+"columnDefs": [ { "orderable": false, "targets": [ 1, 2, 3, 4, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96] } ]
 
 
 .tablepress-id-11110 .column-1 {
@@ -253,7 +258,8 @@ GPA
 .column-93,
 .column-94,
 .column-95,
-.column-96 {
+.column-96,
+.column-97 {
 	display: none;
 }
 

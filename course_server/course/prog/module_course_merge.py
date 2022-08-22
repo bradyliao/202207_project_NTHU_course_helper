@@ -16,6 +16,7 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
     
     course_data_processed_df = pd.read_csv(data_folder_path + global_semester + '_course_data_processed.csv')
     course_corriculum_processed_df = pd.read_csv(data_folder_path + global_semester + '_course_corriculum_processed.csv')
+    course_enrollstatus_processed_df = pd.read_csv(data_folder_path + global_semester + '_course_enrollstatus_processed.csv')
     
     
     newData = list()
@@ -161,6 +162,36 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
         
         # 選課系統 - 開
         if(selection_system_on):
+            # spots_avl
+            # pending_enrollment
+            
+            # current_enrollment
+            if (course_enrollstatus_processed_df[course_enrollstatus_processed_df['course_ID_full_orig']==course_ID_full_orig].size == 0):
+                current_enrollment = '--'
+                spots_avl = '--'
+                pending_enrollment = '--'
+            else:
+                current_enrollment = course_enrollstatus_processed_df[course_enrollstatus_processed_df['course_ID_full_orig']==course_ID_full_orig].values[0,1]
+                spots_avl = course_enrollstatus_processed_df[course_enrollstatus_processed_df['course_ID_full_orig']==course_ID_full_orig].values[0,2]
+                pending_enrollment = course_enrollstatus_processed_df[course_enrollstatus_processed_df['course_ID_full_orig']==course_ID_full_orig].values[0,3]
+
+            
+            if spots_avl == '∞':
+                chance = "{:4.2f}".format(1)
+            elif spots_avl == '--' or pending_enrollment == '--' :
+                chance = '--'
+            elif int(spots_avl) == 0:
+                chance = "{:4.2f}".format(0)
+            elif int(spots_avl) != 0 and int(pending_enrollment) == 0:
+                chance = "{:4.2f}".format(1)
+            elif int(spots_avl) > int(pending_enrollment)+1:
+                chance = "{:4.2f}".format(1)
+            elif int(spots_avl) <= int(pending_enrollment)+1:
+                chance = int(spots_avl) / ( int(pending_enrollment) + 1)
+                chance = "{:4.2f}".format(chance)
+            else:
+                chance = '--'
+            
             chance_text = '選上機率\nChance'
             
         # 選課系統 - 關
@@ -170,7 +201,7 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
             else:
                 current_enrollment = course_corriculum_processed_df[course_corriculum_processed_df['course_ID_full_orig']==course_ID_full_orig].values[0,1]
             
-            if limit != '--' and current_enrollment != '--' and int(limit)!=0 :
+            if limit != '∞' and limit != '--' and current_enrollment != '--' and int(limit)!=0 :
                 spots_avl = int(limit) - int(current_enrollment)
                 chance = int(spots_avl)/int(limit)
                 chance = "{:4.2f}".format(chance)
@@ -230,7 +261,7 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
         
         
         
-        newData.append([display_course_ID, display_info, display_enrollment, display_other, department, gen_cat, chance, building, language, extra_enrollment, course_level,
+        newData.append([display_course_ID, display_info, display_enrollment, display_other, department, gen_cat, chance, building, credit_unit, language, extra_enrollment, course_level,
                         filter_course,
                         Monday,
                         M1, M2, M3, M4, Mn, M5, M6, M7, M8, M9, Ma, Mb, Mc,
@@ -249,7 +280,7 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
         
         
     course_merged = pd.DataFrame(data=newData)
-    course_merged.columns = ['課號 Course ID', '課程資訊 Course Info', '註冊資訊 Enrollment Info', '其他 Other', '系所 Department', '通識 GE', chance_text, '教室大樓 Building', '授課語言 Language', '加簽 Extra Enrollment', '課程年級 Course Level (4位數課號的第一個數字，不見得適用每一個科系)',
+    course_merged.columns = ['課號 Course ID', '課程資訊 Course Info', '註冊資訊 Enrollment Info', '其他 Other', '系所 Department', '通識 GE', chance_text, '教室大樓 Building', '學分數 Credit unit', '授課語言 Language', '加簽 Extra Enrollment', '課程年級 Course Level (4位數課號的第一碼 不見得適用每一科系)',
                             '課程 Course ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------',
                             'Monday -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------', 
                             'M1', 'M2', 'M3', 'M4', 'Mn', 'M5', 'M6', 'M7', 'M8', 'M9', 'Ma', 'Mb', 'Mc', 
@@ -266,6 +297,7 @@ def course_merge(data_folder_path, global_semester, selection_system_on, GPAreco
                             ]
     
     course_merged.to_csv(data_folder_path + global_semester + '_course_merged.csv', index=False)
+    course_merged.to_csv(data_folder_path + 'log/' + datetime.datetime.now().strftime("%Y%m%d_%H%M%S_") + global_semester + '_course_merged.csv', index=False)
     
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " course_merge - done")
     
